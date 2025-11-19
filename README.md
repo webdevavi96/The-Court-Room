@@ -38,7 +38,7 @@ A courtroom simulation web application that combines a React + Vite front end wi
 1. Open a terminal and change to the client directory:
 
 ```powershell
-cd "c:\Users\sudha\OneDrive\Desktop\Avinash Chaurasiya\Simple_Projects\The_Court_Room\client"
+cd "client"
 ```
 
 2. Install dependencies:
@@ -70,7 +70,7 @@ Notes:
 1. Create and activate a Python virtual environment (recommended):
 
 ```powershell
-cd "c:\Users\sudha\OneDrive\Desktop\Avinash Chaurasiya\Simple_Projects\The_Court_Room\server"
+cd "server"
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
