@@ -37,25 +37,25 @@ A courtroom simulation web application that combines a React + Vite front end wi
 
 1. Open a terminal and change to the client directory:
 
-```powershell
+```bash
 cd "client"
 ```
 
 2. Install dependencies:
 
-```powershell
+```bash
 npm install
 ```
 
 3. Run the development server:
 
-```powershell
+```bash
 npm run dev
 ```
 
 4. Build for production:
 
-```powershell
+```bash
 npm run build
 npm run preview
 ```
@@ -69,7 +69,7 @@ Notes:
 
 1. Create and activate a Python virtual environment (recommended):
 
-```powershell
+```bash
 cd "server"
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -162,5 +162,5 @@ Open the URL printed by Vite (usually `http://localhost:5173`) to view the app.
 
 **Contact / Author**
 
-- Maintainer: Avinash Chaurasiya (repo owner: `webdevavi96`).
+- Developer: Avinash Chaurasiya (`webdevavi96`).
 - For questions or collaboration, open an issue or PR on the repository.
