@@ -14,5 +14,7 @@ const Messages = lazy(() => import("../Pages/Messages"));
 const Interogation = lazy(() => import("../Pages/Interogation"));
 const JudgePanel = lazy(() => import("../Pages/JudgeChat"));
 const AddEvidence = lazy(() => import("../Components/UI/AddEvidence"));
+const Settings = lazy(() => import("../Pages/Settings"));
+const ErrorPage = lazy(() => import("../Pages/404"));
 
-export { Landing, Home, Dashboard, Layout, Login, Register, FaceScanner, Profile, Cases, CaseDetails, Courtroom, Messages, Interogation, JudgePanel, AddEvidence };
+export { Landing, Home, Dashboard, Layout, Login, Register, FaceScanner, Profile, Cases, CaseDetails, Courtroom, Messages, Interogation, JudgePanel, AddEvidence, Settings, ErrorPage };
