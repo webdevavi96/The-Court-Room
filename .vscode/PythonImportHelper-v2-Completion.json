@@ -9,19 +9,244 @@
         "documentation": {}
     },
     {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -61,30 +286,156 @@
         "documentation": {}
     },
     {
-        "label": "read_root",
-        "kind": 2,
-        "importPath": "server.app.main",
-        "description": "server.app.main",
-        "peekOfCode": "def read_root():\n    return {\"Hello\": \"World\"}\n@app.get(\"/items/{item_id}\")\ndef read_item(item_id: int, q: Union[str, None] = None):\n    return {\"item_id\": item_id, \"q\": q}",
-        "detail": "server.app.main",
+        "label": "Bot",
+        "kind": 6,
+        "importPath": "server.app.models.Bot.model",
+        "description": "server.app.models.Bot.model",
+        "peekOfCode": "class Bot(Base):\n    __tablenae__ = \"Bot\"\n    id = Column(Integer, primary_key=True)\n    bot_name = Column(String(100), nullable=False)\n    bot_type = Column(String, nullable=False)",
+        "detail": "server.app.models.Bot.model",
         "documentation": {}
     },
     {
-        "label": "read_item",
-        "kind": 2,
-        "importPath": "server.app.main",
-        "description": "server.app.main",
-        "peekOfCode": "def read_item(item_id: int, q: Union[str, None] = None):\n    return {\"item_id\": item_id, \"q\": q}",
-        "detail": "server.app.main",
-        "documentation": {}
-    },
-    {
-        "label": "app",
+        "label": "Base",
         "kind": 5,
-        "importPath": "server.app.main",
-        "description": "server.app.main",
-        "peekOfCode": "app = FastAPI()\n@app.get(\"/\")\ndef read_root():\n    return {\"Hello\": \"World\"}\n@app.get(\"/items/{item_id}\")\ndef read_item(item_id: int, q: Union[str, None] = None):\n    return {\"item_id\": item_id, \"q\": q}",
-        "detail": "server.app.main",
+        "importPath": "server.app.models.Bot.model",
+        "description": "server.app.models.Bot.model",
+        "peekOfCode": "Base = declarative_base()\nclass Bot(Base):\n    __tablenae__ = \"Bot\"\n    id = Column(Integer, primary_key=True)\n    bot_name = Column(String(100), nullable=False)\n    bot_type = Column(String, nullable=False)",
+        "detail": "server.app.models.Bot.model",
+        "documentation": {}
+    },
+    {
+        "label": "CaseProgress",
+        "kind": 6,
+        "importPath": "server.app.models.Case.model",
+        "description": "server.app.models.Case.model",
+        "peekOfCode": "class CaseProgress(enum.Enum):\n    OPEN = \"OPEN\"\n    IN_PROGRESS = \"IN_PROGRESS\"\n    CLOSED = \"CLOSED\"\n    ARCHIVED = \"ARCHIVED\"\nclass Case(Base):\n    __tablename__ = \"cases\"\n    id = Column(Integer, primary_key=True, index=True)\n    case_title = Column(String, nullable=False)\n    case_details = Column(String, nullable=False)",
+        "detail": "server.app.models.Case.model",
+        "documentation": {}
+    },
+    {
+        "label": "Case",
+        "kind": 6,
+        "importPath": "server.app.models.Case.model",
+        "description": "server.app.models.Case.model",
+        "peekOfCode": "class Case(Base):\n    __tablename__ = \"cases\"\n    id = Column(Integer, primary_key=True, index=True)\n    case_title = Column(String, nullable=False)\n    case_details = Column(String, nullable=False)\n    case_status = Column(Enum(CaseProgress), nullable=False, default=CaseProgress.OPEN)\n    roles = relationship(\"CaseRoles\", back_populates=\"case\")",
+        "detail": "server.app.models.Case.model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "server.app.models.Case.model",
+        "description": "server.app.models.Case.model",
+        "peekOfCode": "Base = declarative_base()\nclass CaseProgress(enum.Enum):\n    OPEN = \"OPEN\"\n    IN_PROGRESS = \"IN_PROGRESS\"\n    CLOSED = \"CLOSED\"\n    ARCHIVED = \"ARCHIVED\"\nclass Case(Base):\n    __tablename__ = \"cases\"\n    id = Column(Integer, primary_key=True, index=True)\n    case_title = Column(String, nullable=False)",
+        "detail": "server.app.models.Case.model",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "server.app.models.Player.model",
+        "description": "server.app.models.Player.model",
+        "peekOfCode": "class Player(Base):\n    __tablename__ = \"Player\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String(100), nullable=False)\n    username = Column(String(50), nullable=False)\n    email = Column(String(100), nullable=False)\n    age = Column(Integer, nullable=False)\n    password_hash = Column(String, nullable=False)\n    pin_hash = Column(String, nullable=False)\n    solved_case_count = Column(Integer, default=0)",
+        "detail": "server.app.models.Player.model",
+        "documentation": {}
+    },
+    {
+        "label": "hash_value",
+        "kind": 2,
+        "importPath": "server.app.models.Player.model",
+        "description": "server.app.models.Player.model",
+        "peekOfCode": "def hash_value(value: str):\n    return pwd_context.hash(value)\ndef verify_hash_value(value: str, hashed: str):\n    return pwd_context.verify(value, hashed)",
+        "detail": "server.app.models.Player.model",
+        "documentation": {}
+    },
+    {
+        "label": "verify_hash_value",
+        "kind": 2,
+        "importPath": "server.app.models.Player.model",
+        "description": "server.app.models.Player.model",
+        "peekOfCode": "def verify_hash_value(value: str, hashed: str):\n    return pwd_context.verify(value, hashed)",
+        "detail": "server.app.models.Player.model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "server.app.models.Player.model",
+        "description": "server.app.models.Player.model",
+        "peekOfCode": "Base = declarative_base()\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass Player(Base):\n    __tablename__ = \"Player\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String(100), nullable=False)\n    username = Column(String(50), nullable=False)\n    email = Column(String(100), nullable=False)\n    age = Column(Integer, nullable=False)\n    password_hash = Column(String, nullable=False)",
+        "detail": "server.app.models.Player.model",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "server.app.models.Player.model",
+        "description": "server.app.models.Player.model",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass Player(Base):\n    __tablename__ = \"Player\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String(100), nullable=False)\n    username = Column(String(50), nullable=False)\n    email = Column(String(100), nullable=False)\n    age = Column(Integer, nullable=False)\n    password_hash = Column(String, nullable=False)\n    pin_hash = Column(String, nullable=False)",
+        "detail": "server.app.models.Player.model",
+        "documentation": {}
+    },
+    {
+        "label": "Roles",
+        "kind": 6,
+        "importPath": "server.app.models.Roles.model",
+        "description": "server.app.models.Roles.model",
+        "peekOfCode": "class Roles(enum.Enum):\n    JUDGE = \"JUDGE\"\n    PROSECUTOR = \"PROSECUTOR\"\n    DEFENSE = \"DEFENSE\"\n    WITNESS = \"WITNESS\"\n    VICTIM = \"VICTIM\"\n    ACCUSED = \"ACCUSED\"\n    JUROR = \"JUROR\"\n    OBSERVER = \"OBSERVER\"\n    INVESTIGATOR = \"INVESTIGATOR\"",
+        "detail": "server.app.models.Roles.model",
+        "documentation": {}
+    },
+    {
+        "label": "CaseRoles",
+        "kind": 6,
+        "importPath": "server.app.models.Roles.model",
+        "description": "server.app.models.Roles.model",
+        "peekOfCode": "class CaseRoles(Base):\n    id = Column(Integer, primary_key=True)\n    player_id = Column(Integer, ForeignKey(\"player.id\"), nullable=True)\n    player_role = Column(Enum(Roles), nullable=False)\n    bot_id = Column(Integer, ForeignKey(\"bot.id\"), nullable=True)\n    bot_role = Column(Enum(Roles), nullable=False)\n    case_id = Column(Integer, ForeignKey(\"case.id\"))",
+        "detail": "server.app.models.Roles.model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "server.app.models.Roles.model",
+        "description": "server.app.models.Roles.model",
+        "peekOfCode": "Base = declarative_base()\nimport enum\nclass Roles(enum.Enum):\n    JUDGE = \"JUDGE\"\n    PROSECUTOR = \"PROSECUTOR\"\n    DEFENSE = \"DEFENSE\"\n    WITNESS = \"WITNESS\"\n    VICTIM = \"VICTIM\"\n    ACCUSED = \"ACCUSED\"\n    JUROR = \"JUROR\"",
+        "detail": "server.app.models.Roles.model",
+        "documentation": {}
+    },
+    {
+        "label": "SolvedCases",
+        "kind": 6,
+        "importPath": "server.app.models.SolvedCases.model",
+        "description": "server.app.models.SolvedCases.model",
+        "peekOfCode": "class SolvedCases(Base):\n    id = Column(Integer, primary_key=True)\n    player_id = Column(Integer, ForeignKey(\"player.id\"), nullable=True)\n    case_id = Column(Integer, ForeignKey(\"bot.id\"), nullable=True)",
+        "detail": "server.app.models.SolvedCases.model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "server.app.models.SolvedCases.model",
+        "description": "server.app.models.SolvedCases.model",
+        "peekOfCode": "Base = declarative_base()\nclass SolvedCases(Base):\n    id = Column(Integer, primary_key=True)\n    player_id = Column(Integer, ForeignKey(\"player.id\"), nullable=True)\n    case_id = Column(Integer, ForeignKey(\"bot.id\"), nullable=True)",
+        "detail": "server.app.models.SolvedCases.model",
+        "documentation": {}
+    },
+    {
+        "label": "InputPlayer",
+        "kind": 6,
+        "importPath": "server.app.schemas.Player.schema",
+        "description": "server.app.schemas.Player.schema",
+        "peekOfCode": "class InputPlayer(BaseModel):\n    id: int\n    full_name: str\n    username: str\n    email: EmailStr\n    password: str\n    age: int\n    pin: str\n# DB model (database → server → client, safe fields only)\nclass Player(BaseModel):",
+        "detail": "server.app.schemas.Player.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "server.app.schemas.Player.schema",
+        "description": "server.app.schemas.Player.schema",
+        "peekOfCode": "class Player(BaseModel):\n    id: int\n    full_name: str\n    username: str\n    email: EmailStr\n    age: int\n    solved_case_count: int\n    class Config:\n        from_attributes = True",
+        "detail": "server.app.schemas.Player.schema",
         "documentation": {}
     }
 ]
