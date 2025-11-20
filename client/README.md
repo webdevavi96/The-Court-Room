@@ -6,25 +6,25 @@ This folder contains the frontend single-page application for The Court Room pro
 
 1. Open a terminal and change to the `client` directory:
 
-```powershell
-cd "c:\Users\sudha\OneDrive\Desktop\Avinash Chaurasiya\Simple_Projects\The_Court_Room\client"
+```bash
+cd "client"
 ```
 
 1. Install dependencies:
 
-```powershell
+```bash
 npm install
 ```
 
 1. Start the dev server:
 
-```powershell
+```bash
 npm run dev
 ```
 
 1. Build for production:
 
-```powershell
+```bash
 npm run build
 npm run preview
 ```
@@ -101,5 +101,5 @@ This project uses the same license as the repository root. Update or replace lic
 
 ## Contact
 
-- Maintainer: Avinash Chaurasiya (repo owner: `webdevavi96`). Open issues or PRs for questions and contributions.
+- Developer: Avinash Chaurasiya (`webdevavi96`). Open issues or PRs for questions and contributions.
 
