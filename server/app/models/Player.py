@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
-from ..config.database import Base
+from app.config.database import Base
+from .SolvedCases import SolvedCase
 
 
 class Player(Base):
@@ -16,7 +17,7 @@ class Player(Base):
     pin_hash = Column(String, nullable=False)
 
     solved_case_count = Column(Integer, default=0)
-
+    
     # RELATIONSHIPS
     solved_cases = relationship("SolvedCase", back_populates="player")
     case_roles = relationship(

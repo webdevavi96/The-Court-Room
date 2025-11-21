@@ -2,7 +2,7 @@ from sqlalchemy import Column, String, Integer, Enum
 from sqlalchemy.orm import relationship
 from app.config.database import Base
 import enum
-
+from .Roles import CaseRole
 
 class CaseProgress(enum.Enum):
     OPEN = "OPEN"

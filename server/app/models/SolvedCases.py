@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, ForeignKey
 from sqlalchemy.orm import relationship
-from ..config.database import Base
+from app.config.database import Base
+from .Case import Case
 
 
 class SolvedCase(Base):
@@ -11,4 +12,4 @@ class SolvedCase(Base):
     case_id = Column(Integer, ForeignKey("cases.id"), nullable=False)
 
     player = relationship("Player", back_populates="solved_cases")
-    case = relationship("cases", back_populates="solved_entries")
+    case = relationship("Case", back_populates="solved_entries")

@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, ForeignKey, Enum
 from sqlalchemy.orm import relationship
 from app.config.database import Base
 from .roles_enum import RoleEnum
+from .Bot import Bot
 
 
 class CaseRole(Base):

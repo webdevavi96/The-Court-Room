@@ -29,3 +29,8 @@ class PlayerOut(BaseModel):
 
 class TokenData(BaseModel):
     refresh_token: Optional[str] = None
+
+
+class LoginUser(BaseModel):
+    email: str
+    password: str

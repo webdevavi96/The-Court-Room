@@ -65,6 +65,14 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "sqlalchemy",
         "kind": 6,
         "isExtraImport": true,
@@ -283,6 +291,38 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
         "label": "SessionLocal",
         "importPath": "app.config.database",
         "description": "app.config.database",
@@ -412,6 +452,38 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "RoleEnum",
         "importPath": "models.roles_enum",
         "description": "models.roles_enum",
@@ -425,6 +497,30 @@
         "description": "models.roles_enum",
         "isExtraImport": true,
         "detail": "models.roles_enum",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -441,6 +537,102 @@
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "app.models.Player",
+        "description": "app.models.Player",
+        "isExtraImport": true,
+        "detail": "app.models.Player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "app.models.Player",
+        "description": "app.models.Player",
+        "isExtraImport": true,
+        "detail": "app.models.Player",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerCreate",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "LoginUser",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerCreate",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "LoginUser",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "hash_value",
+        "importPath": "app.models.Security",
+        "description": "app.models.Security",
+        "isExtraImport": true,
+        "detail": "app.models.Security",
+        "documentation": {}
+    },
+    {
+        "label": "verify_hash_value",
+        "importPath": "app.models.Security",
+        "description": "app.models.Security",
+        "isExtraImport": true,
+        "detail": "app.models.Security",
+        "documentation": {}
+    },
+    {
+        "label": "create_player",
+        "importPath": "app.utils.user_crud",
+        "description": "app.utils.user_crud",
+        "isExtraImport": true,
+        "detail": "app.utils.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "login_player",
+        "importPath": "app.utils.user_crud",
+        "description": "app.utils.user_crud",
+        "isExtraImport": true,
+        "detail": "app.utils.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -474,14 +666,6 @@
         "description": "logging.config",
         "isExtraImport": true,
         "detail": "logging.config",
-        "documentation": {}
-    },
-    {
-        "label": "Player",
-        "importPath": "app.models.Player",
-        "description": "app.models.Player",
-        "isExtraImport": true,
-        "detail": "app.models.Player",
         "documentation": {}
     },
     {
@@ -682,7 +866,7 @@
         "kind": 5,
         "importPath": "server.app.models.Security",
         "description": "server.app.models.Security",
-        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef hash_value(value: str) -> str:\n    return pwd_context.hash(value)\ndef verify_hash_value(value: str, hashed: str) -> bool:\n    return pwd_context.verify(value, hashed)",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"argon2\"], deprecated=\"auto\")\ndef hash_value(value: str) -> str:\n    return pwd_context.hash(value)\ndef verify_hash_value(value: str, hashed: str) -> bool:\n    return pwd_context.verify(value, hashed)",
         "detail": "server.app.models.Security",
         "documentation": {}
     },
@@ -691,125 +875,170 @@
         "kind": 6,
         "importPath": "server.app.models.SolvedCases",
         "description": "server.app.models.SolvedCases",
-        "peekOfCode": "class SolvedCase(Base):\n    __tablename__ = \"solved_cases\"\n    id = Column(Integer, primary_key=True, index=True)\n    player_id = Column(Integer, ForeignKey(\"players.id\"), nullable=False)\n    case_id = Column(Integer, ForeignKey(\"cases.id\"), nullable=False)\n    player = relationship(\"Player\", back_populates=\"solved_cases\")\n    case = relationship(\"cases\", back_populates=\"solved_entries\")",
+        "peekOfCode": "class SolvedCase(Base):\n    __tablename__ = \"solved_cases\"\n    id = Column(Integer, primary_key=True, index=True)\n    player_id = Column(Integer, ForeignKey(\"players.id\"), nullable=False)\n    case_id = Column(Integer, ForeignKey(\"cases.id\"), nullable=False)\n    player = relationship(\"Player\", back_populates=\"solved_cases\")\n    case = relationship(\"Case\", back_populates=\"solved_entries\")",
         "detail": "server.app.models.SolvedCases",
         "documentation": {}
     },
     {
         "label": "BotCreate",
         "kind": 6,
-        "importPath": "server.app.schemas.Bot.schema",
-        "description": "server.app.schemas.Bot.schema",
+        "importPath": "server.app.schemas.Bot",
+        "description": "server.app.schemas.Bot",
         "peekOfCode": "class BotCreate(BaseModel):\n    bot_name: str\n    bot_type: str\nclass BotOut(BaseModel):\n    id: int\n    bot_name: str\n    bot_type: str\n    class Config:\n        from_attributes = True",
-        "detail": "server.app.schemas.Bot.schema",
+        "detail": "server.app.schemas.Bot",
         "documentation": {}
     },
     {
         "label": "BotOut",
         "kind": 6,
-        "importPath": "server.app.schemas.Bot.schema",
-        "description": "server.app.schemas.Bot.schema",
+        "importPath": "server.app.schemas.Bot",
+        "description": "server.app.schemas.Bot",
         "peekOfCode": "class BotOut(BaseModel):\n    id: int\n    bot_name: str\n    bot_type: str\n    class Config:\n        from_attributes = True",
-        "detail": "server.app.schemas.Bot.schema",
+        "detail": "server.app.schemas.Bot",
         "documentation": {}
     },
     {
         "label": "CaseCreate",
         "kind": 6,
-        "importPath": "server.app.schemas.Case.schema",
-        "description": "server.app.schemas.Case.schema",
+        "importPath": "server.app.schemas.Case",
+        "description": "server.app.schemas.Case",
         "peekOfCode": "class CaseCreate(BaseModel):\n    case_title: str\n    case_details: str\nclass RoleAssignment(BaseModel):\n    player_id: Optional[int] = None\n    role: RoleEnum\nclass BotRoleAssignment(BaseModel):\n    bot_id: int\n    role: RoleEnum\nclass CaseCreateWithRoles(BaseModel):",
-        "detail": "server.app.schemas.Case.schema",
+        "detail": "server.app.schemas.Case",
         "documentation": {}
     },
     {
         "label": "RoleAssignment",
         "kind": 6,
-        "importPath": "server.app.schemas.Case.schema",
-        "description": "server.app.schemas.Case.schema",
+        "importPath": "server.app.schemas.Case",
+        "description": "server.app.schemas.Case",
         "peekOfCode": "class RoleAssignment(BaseModel):\n    player_id: Optional[int] = None\n    role: RoleEnum\nclass BotRoleAssignment(BaseModel):\n    bot_id: int\n    role: RoleEnum\nclass CaseCreateWithRoles(BaseModel):\n    case: CaseCreate\n    player_roles: List[RoleAssignment] = []\n    bot_roles: List[BotRoleAssignment] = []",
-        "detail": "server.app.schemas.Case.schema",
+        "detail": "server.app.schemas.Case",
         "documentation": {}
     },
     {
         "label": "BotRoleAssignment",
         "kind": 6,
-        "importPath": "server.app.schemas.Case.schema",
-        "description": "server.app.schemas.Case.schema",
+        "importPath": "server.app.schemas.Case",
+        "description": "server.app.schemas.Case",
         "peekOfCode": "class BotRoleAssignment(BaseModel):\n    bot_id: int\n    role: RoleEnum\nclass CaseCreateWithRoles(BaseModel):\n    case: CaseCreate\n    player_roles: List[RoleAssignment] = []\n    bot_roles: List[BotRoleAssignment] = []",
-        "detail": "server.app.schemas.Case.schema",
+        "detail": "server.app.schemas.Case",
         "documentation": {}
     },
     {
         "label": "CaseCreateWithRoles",
         "kind": 6,
-        "importPath": "server.app.schemas.Case.schema",
-        "description": "server.app.schemas.Case.schema",
+        "importPath": "server.app.schemas.Case",
+        "description": "server.app.schemas.Case",
         "peekOfCode": "class CaseCreateWithRoles(BaseModel):\n    case: CaseCreate\n    player_roles: List[RoleAssignment] = []\n    bot_roles: List[BotRoleAssignment] = []",
-        "detail": "server.app.schemas.Case.schema",
+        "detail": "server.app.schemas.Case",
         "documentation": {}
     },
     {
         "label": "PlayerCreate",
         "kind": 6,
-        "importPath": "server.app.schemas.Player.schema",
-        "description": "server.app.schemas.Player.schema",
+        "importPath": "server.app.schemas.Player",
+        "description": "server.app.schemas.Player",
         "peekOfCode": "class PlayerCreate(BaseModel):\n    full_name: str\n    username: str\n    email: EmailStr\n    password: str\n    age: int\n    pin: str\n# DB model (database → server → client, safe fields only)\nclass PlayerOut(BaseModel):\n    id: int",
-        "detail": "server.app.schemas.Player.schema",
+        "detail": "server.app.schemas.Player",
         "documentation": {}
     },
     {
         "label": "PlayerOut",
         "kind": 6,
-        "importPath": "server.app.schemas.Player.schema",
-        "description": "server.app.schemas.Player.schema",
+        "importPath": "server.app.schemas.Player",
+        "description": "server.app.schemas.Player",
         "peekOfCode": "class PlayerOut(BaseModel):\n    id: int\n    full_name: str\n    username: str\n    email: EmailStr\n    age: int\n    solved_case_count: int\n    class Config:\n        from_attributes = True\nclass TokenData(BaseModel):",
-        "detail": "server.app.schemas.Player.schema",
+        "detail": "server.app.schemas.Player",
         "documentation": {}
     },
     {
         "label": "TokenData",
         "kind": 6,
-        "importPath": "server.app.schemas.Player.schema",
-        "description": "server.app.schemas.Player.schema",
-        "peekOfCode": "class TokenData(BaseModel):\n    refresh_token: Optional[str] = None",
-        "detail": "server.app.schemas.Player.schema",
+        "importPath": "server.app.schemas.Player",
+        "description": "server.app.schemas.Player",
+        "peekOfCode": "class TokenData(BaseModel):\n    refresh_token: Optional[str] = None\nclass LoginUser(BaseModel):\n    email: str\n    password: str",
+        "detail": "server.app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "LoginUser",
+        "kind": 6,
+        "importPath": "server.app.schemas.Player",
+        "description": "server.app.schemas.Player",
+        "peekOfCode": "class LoginUser(BaseModel):\n    email: str\n    password: str",
+        "detail": "server.app.schemas.Player",
         "documentation": {}
     },
     {
         "label": "BotRole",
         "kind": 6,
-        "importPath": "server.app.schemas.Roles.schema",
-        "description": "server.app.schemas.Roles.schema",
+        "importPath": "server.app.schemas.Roles",
+        "description": "server.app.schemas.Roles",
         "peekOfCode": "class BotRole(BaseModel):\n    bot_id: int\n    bot_role: RoleEnum\nclass CaseRoleCreate(BaseModel):\n    player_id: int\n    player_role: RoleEnum\n    case_id: int\n    bots: List",
-        "detail": "server.app.schemas.Roles.schema",
+        "detail": "server.app.schemas.Roles",
         "documentation": {}
     },
     {
         "label": "CaseRoleCreate",
         "kind": 6,
-        "importPath": "server.app.schemas.Roles.schema",
-        "description": "server.app.schemas.Roles.schema",
+        "importPath": "server.app.schemas.Roles",
+        "description": "server.app.schemas.Roles",
         "peekOfCode": "class CaseRoleCreate(BaseModel):\n    player_id: int\n    player_role: RoleEnum\n    case_id: int\n    bots: List",
-        "detail": "server.app.schemas.Roles.schema",
+        "detail": "server.app.schemas.Roles",
         "documentation": {}
     },
     {
         "label": "SolvedCaseCreate",
         "kind": 6,
-        "importPath": "server.app.schemas.Solved_Cases.schema",
-        "description": "server.app.schemas.Solved_Cases.schema",
+        "importPath": "server.app.schemas.Solved_Cases",
+        "description": "server.app.schemas.Solved_Cases",
         "peekOfCode": "class SolvedCaseCreate(BaseModel):\n    player_id: int\n    case_id: int\nclass SolvedCaseOut(BaseModel):\n    id: int\n    player_id: int\n    case_id: int\n    class Config:\n        from_attributes = True",
-        "detail": "server.app.schemas.Solved_Cases.schema",
+        "detail": "server.app.schemas.Solved_Cases",
         "documentation": {}
     },
     {
         "label": "SolvedCaseOut",
         "kind": 6,
-        "importPath": "server.app.schemas.Solved_Cases.schema",
-        "description": "server.app.schemas.Solved_Cases.schema",
+        "importPath": "server.app.schemas.Solved_Cases",
+        "description": "server.app.schemas.Solved_Cases",
         "peekOfCode": "class SolvedCaseOut(BaseModel):\n    id: int\n    player_id: int\n    case_id: int\n    class Config:\n        from_attributes = True",
-        "detail": "server.app.schemas.Solved_Cases.schema",
+        "detail": "server.app.schemas.Solved_Cases",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "server.app.tests.test_db",
+        "description": "server.app.tests.test_db",
+        "peekOfCode": "db = SessionLocal()\ntry:\n    result = db.execute(text(\"SELECT 1\"))\n    print(\"DB OK:\", result.scalar())\nexcept Exception as e:\n    print(\"DB ERROR:\", e)\nfinally:\n    db.close()",
+        "detail": "server.app.tests.test_db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "server.app.utils.user_crud",
+        "description": "server.app.utils.user_crud",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return None\n    # Check username",
+        "detail": "server.app.utils.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_player",
+        "kind": 2,
+        "importPath": "server.app.utils.user_crud",
+        "description": "server.app.utils.user_crud",
+        "peekOfCode": "def create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return None\n    # Check username\n    existing_user = db.query(Player).filter(Player.username == user.username).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Username already exists\")\n    # Check email\n    existing_email = db.query(Player).filter(Player.email == user.email).first()\n    if existing_email:",
+        "detail": "server.app.utils.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "login_player",
+        "kind": 2,
+        "importPath": "server.app.utils.user_crud",
+        "description": "server.app.utils.user_crud",
+        "peekOfCode": "def login_player(user: LoginUser, db: Session = Depends(get_db)):\n    if user is None:\n        return None\n    player = db.query(Player).filter(Player.email == user.email).first()\n    if not player:\n        return None\n    if not verify_hash_value(user.password, player.password_hash):  # type: ignore\n        return None\n    return player",
+        "detail": "server.app.utils.user_crud",
         "documentation": {}
     },
     {
@@ -831,12 +1060,39 @@
         "documentation": {}
     },
     {
+        "label": "player_to_dict",
+        "kind": 2,
+        "importPath": "server.app.test_crud",
+        "description": "server.app.test_crud",
+        "peekOfCode": "def player_to_dict(player):\n    return {\n        \"id\": player.id,\n        \"full_name\": player.full_name,\n        \"username\": player.username,\n        \"email\": player.email,\n        \"age\": player.age,\n        \"solved_case_count\": player.solved_case_count,\n    }\n# print(player_to_dict(player))",
+        "detail": "server.app.test_crud",
+        "documentation": {}
+    },
+    {
         "label": "db",
         "kind": 5,
-        "importPath": "server.app.test_db",
-        "description": "server.app.test_db",
-        "peekOfCode": "db = SessionLocal()\ntry:\n    result = db.execute(text(\"SELECT 1\"))\n    print(\"DB OK:\", result.scalar())\nexcept Exception as e:\n    print(\"DB ERROR:\", e)\nfinally:\n    db.close()",
-        "detail": "server.app.test_db",
+        "importPath": "server.app.test_crud",
+        "description": "server.app.test_crud",
+        "peekOfCode": "db = SessionLocal()\nnew_user = PlayerCreate(\n    full_name=\"Test\",\n    username=\"Test\",\n    email=\"test@example.com\",\n    password=\"1234\",\n    pin=\"1234\",\n    age=25,\n)\n# create_player(new_user, db)",
+        "detail": "server.app.test_crud",
+        "documentation": {}
+    },
+    {
+        "label": "new_user",
+        "kind": 5,
+        "importPath": "server.app.test_crud",
+        "description": "server.app.test_crud",
+        "peekOfCode": "new_user = PlayerCreate(\n    full_name=\"Test\",\n    username=\"Test\",\n    email=\"test@example.com\",\n    password=\"1234\",\n    pin=\"1234\",\n    age=25,\n)\n# create_player(new_user, db)\nlogin_user = LoginUser(email=\"test@example.com\", password=\"1234\")",
+        "detail": "server.app.test_crud",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "kind": 5,
+        "importPath": "server.app.test_crud",
+        "description": "server.app.test_crud",
+        "peekOfCode": "login_user = LoginUser(email=\"test@example.com\", password=\"1234\")\n# player = login_player(login_user, db)\n# To print user details on console after destructring\ndef player_to_dict(player):\n    return {\n        \"id\": player.id,\n        \"full_name\": player.full_name,\n        \"username\": player.username,\n        \"email\": player.email,\n        \"age\": player.age,",
+        "detail": "server.app.test_crud",
         "documentation": {}
     },
     {
@@ -855,6 +1111,42 @@
         "description": "server.migrations.versions.1745d65ef0a4_init_schema",
         "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_solved_cases_id'), table_name='solved_cases')\n    op.drop_table('solved_cases')\n    op.drop_index(op.f('ix_case_roles_id'), table_name='case_roles')\n    op.drop_table('case_roles')\n    op.drop_index(op.f('ix_case_bot_roles_id'), table_name='case_bot_roles')\n    op.drop_table('case_bot_roles')\n    op.drop_index(op.f('ix_players_id'), table_name='players')",
         "detail": "server.migrations.versions.1745d65ef0a4_init_schema",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "server.migrations.versions.a01625dac9f5_init_schema",
+        "description": "server.migrations.versions.a01625dac9f5_init_schema",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "server.migrations.versions.a01625dac9f5_init_schema",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "server.migrations.versions.a01625dac9f5_init_schema",
+        "description": "server.migrations.versions.a01625dac9f5_init_schema",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "server.migrations.versions.a01625dac9f5_init_schema",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "server.migrations.versions.da6a7e74a042_fixed_password_hash_error",
+        "description": "server.migrations.versions.da6a7e74a042_fixed_password_hash_error",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('bots',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('bot_name', sa.String(length=100), nullable=False),\n    sa.Column('bot_type', sa.String(), nullable=False),\n    sa.PrimaryKeyConstraint('id')\n    )\n    op.create_index(op.f('ix_bots_id'), 'bots', ['id'], unique=False)",
+        "detail": "server.migrations.versions.da6a7e74a042_fixed_password_hash_error",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "server.migrations.versions.da6a7e74a042_fixed_password_hash_error",
+        "description": "server.migrations.versions.da6a7e74a042_fixed_password_hash_error",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_solved_cases_id'), table_name='solved_cases')\n    op.drop_table('solved_cases')\n    op.drop_index(op.f('ix_case_roles_id'), table_name='case_roles')\n    op.drop_table('case_roles')\n    op.drop_index(op.f('ix_case_bot_roles_id'), table_name='case_bot_roles')\n    op.drop_table('case_bot_roles')\n    op.drop_index(op.f('ix_players_id'), table_name='players')",
+        "detail": "server.migrations.versions.da6a7e74a042_fixed_password_hash_error",
         "documentation": {}
     },
     {

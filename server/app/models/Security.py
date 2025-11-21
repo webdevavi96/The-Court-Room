@@ -1,10 +1,11 @@
-# app/core/security.py
 from passlib.context import CryptContext
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
+
 
 def hash_value(value: str) -> str:
     return pwd_context.hash(value)
+
 
 def verify_hash_value(value: str, hashed: str) -> bool:
     return pwd_context.verify(value, hashed)
