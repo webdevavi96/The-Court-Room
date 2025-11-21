@@ -1,8 +1,6 @@
-# case.model.py
-
 from sqlalchemy import Column, String, Integer, Enum
 from sqlalchemy.orm import relationship
-from .databse import Base
+from app.config.database import Base
 import enum
 
 
@@ -14,19 +12,22 @@ class CaseProgress(enum.Enum):
 
 
 class Case(Base):
-    __tablename__ = "Case"
+    __tablename__ = "cases"
 
-    id = Column(Integer, primary_key=True, index=True, unique=True)
+    id = Column(Integer, primary_key=True, index=True)
     case_title = Column(String, nullable=False)
     case_details = Column(String, nullable=False)
     case_status = Column(Enum(CaseProgress), nullable=False, default=CaseProgress.OPEN)
 
+    # RELATIONSHIPS
     case_roles = relationship(
-        "CaseRoles", back_populates="Case", cascade="all, delete-orphan"
+        "CaseRole", back_populates="case", cascade="all, delete-orphan"
     )
+
     bot_roles = relationship(
-        "CaseBotRoles", back_populates="Case", cascade="all,delete-orphan"
+        "CaseBotRole", back_populates="case", cascade="all, delete-orphan"
     )
+
     solved_entries = relationship(
-        "SolvedCases", back_populates="Case", cascade="all,delete-orphan"
+        "SolvedCase", back_populates="case", cascade="all, delete-orphan"
     )

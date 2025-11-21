@@ -9,174 +9,6 @@
         "documentation": {}
     },
     {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "declarative_base",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -185,6 +17,22 @@
         "documentation": {}
     },
     {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -206,6 +54,248 @@
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
         "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
         "documentation": {}
     },
     {
@@ -306,6 +396,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "RoleEnum",
         "importPath": "models.roles_enum",
         "description": "models.roles_enum",
@@ -319,6 +425,103 @@
         "description": "models.roles_enum",
         "isExtraImport": true,
         "detail": "models.roles_enum",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "app.models.Player",
+        "description": "app.models.Player",
+        "isExtraImport": true,
+        "detail": "app.models.Player",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "app.models.Bot",
+        "description": "app.models.Bot",
+        "isExtraImport": true,
+        "detail": "app.models.Bot",
+        "documentation": {}
+    },
+    {
+        "label": "Case",
+        "importPath": "app.models.Case",
+        "description": "app.models.Case",
+        "isExtraImport": true,
+        "detail": "app.models.Case",
+        "documentation": {}
+    },
+    {
+        "label": "CaseRole",
+        "importPath": "app.models.Roles",
+        "description": "app.models.Roles",
+        "isExtraImport": true,
+        "detail": "app.models.Roles",
+        "documentation": {}
+    },
+    {
+        "label": "CaseBotRole",
+        "importPath": "app.models.Roles",
+        "description": "app.models.Roles",
+        "isExtraImport": true,
+        "detail": "app.models.Roles",
+        "documentation": {}
+    },
+    {
+        "label": "SolvedCase",
+        "importPath": "app.models.SolvedCases",
+        "description": "app.models.SolvedCases",
+        "isExtraImport": true,
+        "detail": "app.models.SolvedCases",
         "documentation": {}
     },
     {
@@ -358,66 +561,93 @@
         "documentation": {}
     },
     {
-        "label": "Bot",
-        "kind": 6,
-        "importPath": "server.app.models.Bot.model",
-        "description": "server.app.models.Bot.model",
-        "peekOfCode": "class Bot(Base):\n    __tablename__ = \"Bot\"\n    id = Column(Integer, primary_key=True, unique=True)\n    bot_name = Column(String(100), nullable=False)\n    bot_type = Column(String, nullable=False)\n    case_roles = relationship(\n        \"CaseRoles\", back_populates=\"Bot\", cascade=\"all, delete-orphan\"\n    )",
-        "detail": "server.app.models.Bot.model",
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "server.app.config.database",
+        "description": "server.app.config.database",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DB_URL\")\nif not DATABASE_URL:\n    raise ValueError(\"DB_URL not found\")\nengine = create_engine(DATABASE_URL, pool_pre_ping=True, future=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\nBase = declarative_base()",
+        "detail": "server.app.config.database",
         "documentation": {}
     },
     {
-        "label": "CaseProgress",
-        "kind": 6,
-        "importPath": "server.app.models.Case.model",
-        "description": "server.app.models.Case.model",
-        "peekOfCode": "class CaseProgress(enum.Enum):\n    OPEN = \"OPEN\"\n    IN_PROGRESS = \"IN_PROGRESS\"\n    CLOSED = \"CLOSED\"\n    ARCHIVED = \"ARCHIVED\"\nclass Case(Base):\n    __tablename__ = \"Case\"\n    id = Column(Integer, primary_key=True, index=True, unique=True)\n    case_title = Column(String, nullable=False)\n    case_details = Column(String, nullable=False)",
-        "detail": "server.app.models.Case.model",
+        "label": "engine",
+        "kind": 5,
+        "importPath": "server.app.config.database",
+        "description": "server.app.config.database",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, pool_pre_ping=True, future=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\nBase = declarative_base()",
+        "detail": "server.app.config.database",
         "documentation": {}
     },
     {
-        "label": "Case",
-        "kind": 6,
-        "importPath": "server.app.models.Case.model",
-        "description": "server.app.models.Case.model",
-        "peekOfCode": "class Case(Base):\n    __tablename__ = \"Case\"\n    id = Column(Integer, primary_key=True, index=True, unique=True)\n    case_title = Column(String, nullable=False)\n    case_details = Column(String, nullable=False)\n    case_status = Column(Enum(CaseProgress), nullable=False, default=CaseProgress.OPEN)\n    case_roles = relationship(\n        \"CaseRoles\", back_populates=\"Case\", cascade=\"all, delete-orphan\"\n    )\n    bot_roles = relationship(",
-        "detail": "server.app.models.Case.model",
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "server.app.config.database",
+        "description": "server.app.config.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\nBase = declarative_base()",
+        "detail": "server.app.config.database",
         "documentation": {}
     },
     {
         "label": "Base",
         "kind": 5,
-        "importPath": "server.app.models.databse",
-        "description": "server.app.models.databse",
+        "importPath": "server.app.config.database",
+        "description": "server.app.config.database",
         "peekOfCode": "Base = declarative_base()",
-        "detail": "server.app.models.databse",
+        "detail": "server.app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "kind": 6,
+        "importPath": "server.app.models.Bot",
+        "description": "server.app.models.Bot",
+        "peekOfCode": "class Bot(Base):\n    __tablename__ = \"bots\"\n    id = Column(Integer, primary_key=True, index=True)\n    bot_name = Column(String(100), nullable=False)\n    bot_type = Column(String, nullable=False)\n    # Relationship for bot roles in cases\n    bot_roles = relationship(\"CaseBotRole\", back_populates=\"bot\")",
+        "detail": "server.app.models.Bot",
+        "documentation": {}
+    },
+    {
+        "label": "CaseProgress",
+        "kind": 6,
+        "importPath": "server.app.models.Case",
+        "description": "server.app.models.Case",
+        "peekOfCode": "class CaseProgress(enum.Enum):\n    OPEN = \"OPEN\"\n    IN_PROGRESS = \"IN_PROGRESS\"\n    CLOSED = \"CLOSED\"\n    ARCHIVED = \"ARCHIVED\"\nclass Case(Base):\n    __tablename__ = \"cases\"\n    id = Column(Integer, primary_key=True, index=True)\n    case_title = Column(String, nullable=False)\n    case_details = Column(String, nullable=False)",
+        "detail": "server.app.models.Case",
+        "documentation": {}
+    },
+    {
+        "label": "Case",
+        "kind": 6,
+        "importPath": "server.app.models.Case",
+        "description": "server.app.models.Case",
+        "peekOfCode": "class Case(Base):\n    __tablename__ = \"cases\"\n    id = Column(Integer, primary_key=True, index=True)\n    case_title = Column(String, nullable=False)\n    case_details = Column(String, nullable=False)\n    case_status = Column(Enum(CaseProgress), nullable=False, default=CaseProgress.OPEN)\n    # RELATIONSHIPS\n    case_roles = relationship(\n        \"CaseRole\", back_populates=\"case\", cascade=\"all, delete-orphan\"\n    )",
+        "detail": "server.app.models.Case",
         "documentation": {}
     },
     {
         "label": "Player",
         "kind": 6,
-        "importPath": "server.app.models.Player.model",
-        "description": "server.app.models.Player.model",
-        "peekOfCode": "class Player(Base):\n    __tablename__ = \"Player\"\n    id = Column(Integer, primary_key=True, index=True, unique=True)\n    full_name = Column(String(100), nullable=False)\n    username = Column(String(50), nullable=False, unique=True)\n    email = Column(String(100), nullable=False, unique=True)\n    age = Column(Integer, nullable=False)\n    password_hash = Column(String, nullable=False)\n    pin_hash = Column(String, nullable=False)\n    solved_case_count = Column(Integer, default=0)",
-        "detail": "server.app.models.Player.model",
+        "importPath": "server.app.models.Player",
+        "description": "server.app.models.Player",
+        "peekOfCode": "class Player(Base):\n    __tablename__ = \"players\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String(100), nullable=False)\n    username = Column(String(50), nullable=False, unique=True)\n    email = Column(String(100), nullable=False, unique=True)\n    age = Column(Integer, nullable=False)\n    password_hash = Column(String, nullable=False)\n    pin_hash = Column(String, nullable=False)\n    solved_case_count = Column(Integer, default=0)",
+        "detail": "server.app.models.Player",
         "documentation": {}
     },
     {
-        "label": "CaseRoles",
+        "label": "CaseRole",
         "kind": 6,
-        "importPath": "server.app.models.Roles.model",
-        "description": "server.app.models.Roles.model",
-        "peekOfCode": "class CaseRoles(Base):\n    __tablename__ = \"Case_roles\"\n    id = Column(Integer, primary_key=True, index=True)\n    case_id = Column(Integer, ForeignKey(\"Case.id\"), nullable=False)\n    player_id = Column(Integer, ForeignKey(\"Players.id\"), nullable=True)\n    role = Column(Enum(RoleEnum), nullable=False)\n    case = relationship(\"Case\", back_populates=\"Case_roles\")\n    player = relationship(\"Player\", back_populates=\"Case_roles\")\nclass CaseBotRoles(Base):\n    __tablename__ = \"case_bot_roles\"",
-        "detail": "server.app.models.Roles.model",
+        "importPath": "server.app.models.Roles",
+        "description": "server.app.models.Roles",
+        "peekOfCode": "class CaseRole(Base):\n    __tablename__ = \"case_roles\"\n    id = Column(Integer, primary_key=True, index=True)\n    case_id = Column(Integer, ForeignKey(\"cases.id\"), nullable=False)\n    player_id = Column(Integer, ForeignKey(\"players.id\"), nullable=True)\n    role = Column(Enum(RoleEnum), nullable=False)\n    # RELATIONSHIPS\n    case = relationship(\"Case\", back_populates=\"case_roles\")\n    player = relationship(\"Player\", back_populates=\"case_roles\")\nclass CaseBotRole(Base):",
+        "detail": "server.app.models.Roles",
         "documentation": {}
     },
     {
-        "label": "CaseBotRoles",
+        "label": "CaseBotRole",
         "kind": 6,
-        "importPath": "server.app.models.Roles.model",
-        "description": "server.app.models.Roles.model",
-        "peekOfCode": "class CaseBotRoles(Base):\n    __tablename__ = \"case_bot_roles\"\n    id = Column(Integer, primary_key=True)\n    case_id = Column(Integer, ForeignKey(\"Case.id\"))\n    bot_id = Column(Integer, ForeignKey(\"Bot.id\"))\n    role = Column(Enum(RoleEnum), nullable=False)\n    case = relationship(\"Case\", back_populates=\"bot_roles\")\n    bot = relationship(\"Bot\", back_populates=\"Case_roles\")",
-        "detail": "server.app.models.Roles.model",
+        "importPath": "server.app.models.Roles",
+        "description": "server.app.models.Roles",
+        "peekOfCode": "class CaseBotRole(Base):\n    __tablename__ = \"case_bot_roles\"\n    id = Column(Integer, primary_key=True, index=True)\n    case_id = Column(Integer, ForeignKey(\"cases.id\"), nullable=False)\n    bot_id = Column(Integer, ForeignKey(\"bots.id\"), nullable=False)\n    role = Column(Enum(RoleEnum), nullable=False)\n    # RELATIONSHIPS\n    case = relationship(\"Case\", back_populates=\"bot_roles\")\n    bot = relationship(\"Bot\", back_populates=\"bot_roles\")",
+        "detail": "server.app.models.Roles",
         "documentation": {}
     },
     {
@@ -457,12 +687,12 @@
         "documentation": {}
     },
     {
-        "label": "SolvedCases",
+        "label": "SolvedCase",
         "kind": 6,
-        "importPath": "server.app.models.SolvedCases.model",
-        "description": "server.app.models.SolvedCases.model",
-        "peekOfCode": "class SolvedCases(Base):\n    __tablename__ = \"Sloved_Cases\"\n    id = Column(Integer, primary_key=True, unique=True, index=True)\n    player_id = Column(Integer, ForeignKey(\"Player.id\"), nullable=False)\n    case_id = Column(Integer, ForeignKey(\"Case.id\"), nullable=False)\n    player = relationship(\"Player\", back_populates=\"Solved_Cases\")\n    case = relationship(\"Case\", back_populates=\"solved_entries\")",
-        "detail": "server.app.models.SolvedCases.model",
+        "importPath": "server.app.models.SolvedCases",
+        "description": "server.app.models.SolvedCases",
+        "peekOfCode": "class SolvedCase(Base):\n    __tablename__ = \"solved_cases\"\n    id = Column(Integer, primary_key=True, index=True)\n    player_id = Column(Integer, ForeignKey(\"players.id\"), nullable=False)\n    case_id = Column(Integer, ForeignKey(\"cases.id\"), nullable=False)\n    player = relationship(\"Player\", back_populates=\"solved_cases\")\n    case = relationship(\"cases\", back_populates=\"solved_entries\")",
+        "detail": "server.app.models.SolvedCases",
         "documentation": {}
     },
     {
@@ -580,6 +810,87 @@
         "description": "server.app.schemas.Solved_Cases.schema",
         "peekOfCode": "class SolvedCaseOut(BaseModel):\n    id: int\n    player_id: int\n    case_id: int\n    class Config:\n        from_attributes = True",
         "detail": "server.app.schemas.Solved_Cases.schema",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "server.app.index",
+        "description": "server.app.index",
+        "peekOfCode": "def home(request: Request):\n    return {\"message\": \"hello\"}",
+        "detail": "server.app.index",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "server.app.index",
+        "description": "server.app.index",
+        "peekOfCode": "app = FastAPI()\n@app.get(\"/\")\ndef home(request: Request):\n    return {\"message\": \"hello\"}",
+        "detail": "server.app.index",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "server.app.test_db",
+        "description": "server.app.test_db",
+        "peekOfCode": "db = SessionLocal()\ntry:\n    result = db.execute(text(\"SELECT 1\"))\n    print(\"DB OK:\", result.scalar())\nexcept Exception as e:\n    print(\"DB ERROR:\", e)\nfinally:\n    db.close()",
+        "detail": "server.app.test_db",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "server.migrations.versions.1745d65ef0a4_init_schema",
+        "description": "server.migrations.versions.1745d65ef0a4_init_schema",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('bots',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('bot_name', sa.String(length=100), nullable=False),\n    sa.Column('bot_type', sa.String(), nullable=False),\n    sa.PrimaryKeyConstraint('id')\n    )\n    op.create_index(op.f('ix_bots_id'), 'bots', ['id'], unique=False)",
+        "detail": "server.migrations.versions.1745d65ef0a4_init_schema",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "server.migrations.versions.1745d65ef0a4_init_schema",
+        "description": "server.migrations.versions.1745d65ef0a4_init_schema",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_solved_cases_id'), table_name='solved_cases')\n    op.drop_table('solved_cases')\n    op.drop_index(op.f('ix_case_roles_id'), table_name='case_roles')\n    op.drop_table('case_roles')\n    op.drop_index(op.f('ix_case_bot_roles_id'), table_name='case_bot_roles')\n    op.drop_table('case_bot_roles')\n    op.drop_index(op.f('ix_players_id'), table_name='players')",
+        "detail": "server.migrations.versions.1745d65ef0a4_init_schema",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "server.migrations.env",
+        "description": "server.migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "server.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "server.migrations.env",
+        "description": "server.migrations.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "server.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "server.migrations.env",
+        "description": "server.migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom app.config.database import Base",
+        "detail": "server.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "server.migrations.env",
+        "description": "server.migrations.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "server.migrations.env",
         "documentation": {}
     }
 ]

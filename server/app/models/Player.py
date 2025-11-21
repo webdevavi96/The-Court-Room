@@ -1,14 +1,12 @@
-# player.model.py
-
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
-from .databse import Base
+from ..config.database import Base
 
 
 class Player(Base):
-    __tablename__ = "Player"
+    __tablename__ = "players"
 
-    id = Column(Integer, primary_key=True, index=True, unique=True)
+    id = Column(Integer, primary_key=True, index=True)
     full_name = Column(String(100), nullable=False)
     username = Column(String(50), nullable=False, unique=True)
     email = Column(String(100), nullable=False, unique=True)
@@ -18,9 +16,11 @@ class Player(Base):
     pin_hash = Column(String, nullable=False)
 
     solved_case_count = Column(Integer, default=0)
-    solved_cases = relationship("SolvedCases", back_populates="Player")
+
+    # RELATIONSHIPS
+    solved_cases = relationship("SolvedCase", back_populates="player")
     case_roles = relationship(
-        "CaseRoles", back_populates="Player", cascade="all, delete-orphan"
+        "CaseRole", back_populates="player", cascade="all, delete-orphan"
     )
 
     refresh_token = Column(String, nullable=True)
