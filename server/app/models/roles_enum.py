@@ -1,0 +1,14 @@
+import enum
+
+
+class RoleEnum(enum.Enum):
+    JUDGE = "JUDGE"
+    PROSECUTOR = "PROSECUTOR"
+    DEFENSE = "DEFENSE"
+    WITNESS = "WITNESS"
+    VICTIM = "VICTIM"
+    ACCUSED = "ACCUSED"
+    JUROR = "JUROR"
+    OBSERVER = "OBSERVER"
+    INVESTIGATOR = "INVESTIGATOR"
+    POLICE = "POLICE"

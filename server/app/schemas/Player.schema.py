@@ -1,9 +1,11 @@
+# player.schema.py
+
 from pydantic import BaseModel, EmailStr
+from typing import Optional
 
 
 # Input model (client → server)
-class InputPlayer(BaseModel):
-    id: int
+class PlayerCreate(BaseModel):
     full_name: str
     username: str
     email: EmailStr
@@ -13,7 +15,7 @@ class InputPlayer(BaseModel):
 
 
 # DB model (database → server → client, safe fields only)
-class Player(BaseModel):
+class PlayerOut(BaseModel):
     id: int
     full_name: str
     username: str
@@ -23,3 +25,7 @@ class Player(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class TokenData(BaseModel):
+    refresh_token: Optional[str] = None

@@ -1,28 +1,31 @@
+# roles.modle.py
+
+
 from sqlalchemy import Column, Integer, String, ForeignKey, Enum
-from sqlalchemy.orm import declarative_base
-import enum
-
-Base = declarative_base()
-import enum
-
-
-class Roles(enum.Enum):
-    JUDGE = "JUDGE"
-    PROSECUTOR = "PROSECUTOR"
-    DEFENSE = "DEFENSE"
-    WITNESS = "WITNESS"
-    VICTIM = "VICTIM"
-    ACCUSED = "ACCUSED"
-    JUROR = "JUROR"
-    OBSERVER = "OBSERVER"
-    INVESTIGATOR = "INVESTIGATOR"
-    POLICE = "POLICE"
+from sqlalchemy.orm import relationship
+from .databse import Base
+from .roles_enum import RoleEnum
 
 
 class CaseRoles(Base):
+    __tablename__ = "Case_roles"
+
+    id = Column(Integer, primary_key=True, index=True)
+    case_id = Column(Integer, ForeignKey("Case.id"), nullable=False)
+    player_id = Column(Integer, ForeignKey("Players.id"), nullable=True)
+    role = Column(Enum(RoleEnum), nullable=False)
+
+    case = relationship("Case", back_populates="Case_roles")
+    player = relationship("Player", back_populates="Case_roles")
+
+
+class CaseBotRoles(Base):
+    __tablename__ = "case_bot_roles"
+
     id = Column(Integer, primary_key=True)
-    player_id = Column(Integer, ForeignKey("player.id"), nullable=True)
-    player_role = Column(Enum(Roles), nullable=False)
-    bot_id = Column(Integer, ForeignKey("bot.id"), nullable=True)
-    bot_role = Column(Enum(Roles), nullable=False)
-    case_id = Column(Integer, ForeignKey("case.id"))
+    case_id = Column(Integer, ForeignKey("Case.id"))
+    bot_id = Column(Integer, ForeignKey("Bot.id"))
+    role = Column(Enum(RoleEnum), nullable=False)
+
+    case = relationship("Case", back_populates="bot_roles")
+    bot = relationship("Bot", back_populates="Case_roles")
