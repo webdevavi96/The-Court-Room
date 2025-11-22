@@ -1,5 +1,5 @@
 from app.schemas.Player import PlayerCreate, LoginUser
-from app.utils.user_crud import create_player, login_player
+from app.middleware.user_crud import create_player, login_player
 from app.config.database import SessionLocal
 
 db = SessionLocal()
@@ -18,7 +18,7 @@ new_user = PlayerCreate(
 
 login_user = LoginUser(email="test@example.com", password="1234")
 
-# player = login_player(login_user, db)
+player = login_player(login_user, db)
 
 
 # To print user details on console after destructring
@@ -33,4 +33,6 @@ def player_to_dict(player):
     }
 
 
-# print(player_to_dict(player))
+print(player_to_dict(player["player"]))
+
+# print(player)

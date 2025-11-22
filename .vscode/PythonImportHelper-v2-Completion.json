@@ -25,47 +25,47 @@
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -258,6 +258,14 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -267,6 +275,62 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "importPath": "sqlalchemy.inspection",
+        "description": "sqlalchemy.inspection",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.inspection",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "importPath": "app.config.database",
         "description": "app.config.database",
@@ -323,7 +387,7 @@
         "documentation": {}
     },
     {
-        "label": "SessionLocal",
+        "label": "Base",
         "importPath": "app.config.database",
         "description": "app.config.database",
         "isExtraImport": true,
@@ -331,11 +395,99 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
+        "label": "Player",
+        "importPath": "app.models.Player",
+        "description": "app.models.Player",
         "isExtraImport": true,
-        "detail": "app.config.database",
+        "detail": "app.models.Player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "app.models.Player",
+        "description": "app.models.Player",
+        "isExtraImport": true,
+        "detail": "app.models.Player",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerCreate",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "LoginUser",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotUserPassword",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "FindUser",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerCreate",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "LoginUser",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "hash_value",
+        "importPath": "app.models.Security",
+        "description": "app.models.Security",
+        "isExtraImport": true,
+        "detail": "app.models.Security",
+        "documentation": {}
+    },
+    {
+        "label": "verify_hash_value",
+        "importPath": "app.models.Security",
+        "description": "app.models.Security",
+        "isExtraImport": true,
+        "detail": "app.models.Security",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.utils.token_service",
+        "description": "app.utils.token_service",
+        "isExtraImport": true,
+        "detail": "app.utils.token_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "app.utils.token_service",
+        "description": "app.utils.token_service",
+        "isExtraImport": true,
+        "detail": "app.utils.token_service",
         "documentation": {}
     },
     {
@@ -345,6 +497,14 @@
         "importPath": "enum",
         "description": "enum",
         "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "EmailType",
+        "importPath": "sqlalchemy_utils",
+        "description": "sqlalchemy_utils",
+        "isExtraImport": true,
+        "detail": "sqlalchemy_utils",
         "documentation": {}
     },
     {
@@ -500,123 +660,76 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "jwt",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "fastapi",
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
         "documentation": {}
     },
     {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "SECRET_KEY",
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.config.settings",
         "documentation": {}
     },
     {
-        "label": "Request",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "ALGORITHM",
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.config.settings",
         "documentation": {}
     },
     {
-        "label": "Player",
-        "importPath": "app.models.Player",
-        "description": "app.models.Player",
+        "label": "ACCESS_TOKEN_EXPIRY_MINUTES",
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
         "isExtraImport": true,
-        "detail": "app.models.Player",
+        "detail": "app.config.settings",
         "documentation": {}
     },
     {
-        "label": "Player",
-        "importPath": "app.models.Player",
-        "description": "app.models.Player",
+        "label": "REFRESH_TOKEN_EXPIRY_DAYS",
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
         "isExtraImport": true,
-        "detail": "app.models.Player",
-        "documentation": {}
-    },
-    {
-        "label": "PlayerCreate",
-        "importPath": "app.schemas.Player",
-        "description": "app.schemas.Player",
-        "isExtraImport": true,
-        "detail": "app.schemas.Player",
-        "documentation": {}
-    },
-    {
-        "label": "LoginUser",
-        "importPath": "app.schemas.Player",
-        "description": "app.schemas.Player",
-        "isExtraImport": true,
-        "detail": "app.schemas.Player",
-        "documentation": {}
-    },
-    {
-        "label": "PlayerCreate",
-        "importPath": "app.schemas.Player",
-        "description": "app.schemas.Player",
-        "isExtraImport": true,
-        "detail": "app.schemas.Player",
-        "documentation": {}
-    },
-    {
-        "label": "LoginUser",
-        "importPath": "app.schemas.Player",
-        "description": "app.schemas.Player",
-        "isExtraImport": true,
-        "detail": "app.schemas.Player",
-        "documentation": {}
-    },
-    {
-        "label": "hash_value",
-        "importPath": "app.models.Security",
-        "description": "app.models.Security",
-        "isExtraImport": true,
-        "detail": "app.models.Security",
-        "documentation": {}
-    },
-    {
-        "label": "verify_hash_value",
-        "importPath": "app.models.Security",
-        "description": "app.models.Security",
-        "isExtraImport": true,
-        "detail": "app.models.Security",
+        "detail": "app.config.settings",
         "documentation": {}
     },
     {
         "label": "create_player",
-        "importPath": "app.utils.user_crud",
-        "description": "app.utils.user_crud",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
         "isExtraImport": true,
-        "detail": "app.utils.user_crud",
+        "detail": "app.middleware.user_crud",
         "documentation": {}
     },
     {
         "label": "login_player",
-        "importPath": "app.utils.user_crud",
-        "description": "app.utils.user_crud",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
         "isExtraImport": true,
-        "detail": "app.utils.user_crud",
+        "detail": "app.middleware.user_crud",
         "documentation": {}
     },
     {
@@ -781,11 +894,110 @@
         "documentation": {}
     },
     {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "server.app.config.settings",
+        "description": "server.app.config.settings",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\")\nALGORITHM = os.getenv(\"ALGORITHM\")\nACCESS_TOKEN_EXPIRY_MINUTES = int(os.getenv(\"ACCESS_TOKEN_EXPIRY_MINUTES\", 30))\nREFRESH_TOKEN_EXPIRY_DAYS = int(os.getenv(\"REFRESH_TOKEN_EXPIRY_DAYS\", 7))",
+        "detail": "server.app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "server.app.config.settings",
+        "description": "server.app.config.settings",
+        "peekOfCode": "ALGORITHM = os.getenv(\"ALGORITHM\")\nACCESS_TOKEN_EXPIRY_MINUTES = int(os.getenv(\"ACCESS_TOKEN_EXPIRY_MINUTES\", 30))\nREFRESH_TOKEN_EXPIRY_DAYS = int(os.getenv(\"REFRESH_TOKEN_EXPIRY_DAYS\", 7))",
+        "detail": "server.app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRY_MINUTES",
+        "kind": 5,
+        "importPath": "server.app.config.settings",
+        "description": "server.app.config.settings",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRY_MINUTES = int(os.getenv(\"ACCESS_TOKEN_EXPIRY_MINUTES\", 30))\nREFRESH_TOKEN_EXPIRY_DAYS = int(os.getenv(\"REFRESH_TOKEN_EXPIRY_DAYS\", 7))",
+        "detail": "server.app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REFRESH_TOKEN_EXPIRY_DAYS",
+        "kind": 5,
+        "importPath": "server.app.config.settings",
+        "description": "server.app.config.settings",
+        "peekOfCode": "REFRESH_TOKEN_EXPIRY_DAYS = int(os.getenv(\"REFRESH_TOKEN_EXPIRY_DAYS\", 7))",
+        "detail": "server.app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "server.app.middleware.user_crud",
+        "description": "server.app.middleware.user_crud",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are required\"}\n    # Check username",
+        "detail": "server.app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_player",
+        "kind": 2,
+        "importPath": "server.app.middleware.user_crud",
+        "description": "server.app.middleware.user_crud",
+        "peekOfCode": "def create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are required\"}\n    # Check username\n    existing_user = db.query(Player).filter(Player.username == user.username).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Username already exists\")\n    # Check email\n    existing_email = db.query(Player).filter(Player.email == user.email).first()\n    if existing_email:",
+        "detail": "server.app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "login_player",
+        "kind": 2,
+        "importPath": "server.app.middleware.user_crud",
+        "description": "server.app.middleware.user_crud",
+        "peekOfCode": "def login_player(user: LoginUser, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are required\"}\n    is_player = db.query(Player).filter(Player.email == user.email).first()\n    if not is_player:\n        return {\"status\": 404, \"messsage\": \"User dose not exists\"}\n    if not verify_hash_value(user.password, is_player.password_hash):  # type: ignore\n        return {\"status\": 401, \"messsage\": \"Wrong credentials\"}\n    access_token = create_access_token({\"sub\": is_player.email})\n    refresh_token = create_refresh_token({\"sub\": is_player.email})",
+        "detail": "server.app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_details",
+        "kind": 2,
+        "importPath": "server.app.middleware.user_crud",
+        "description": "server.app.middleware.user_crud",
+        "peekOfCode": "def update_user_details(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are mandatory\"}\n    is_player = db.query(Player).filter(Player.email == user.email).first()\n    if not is_player:\n        return {\"status\": 404, \"message\": \"User not found\"}\n    # Get only provided user fields\n    incoming_data = user.model_dump(exclude_unset=True)\n    # SQLAlchemy column keys\n    mapper = inspect(Player)",
+        "detail": "server.app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "find_user",
+        "kind": 2,
+        "importPath": "server.app.middleware.user_crud",
+        "description": "server.app.middleware.user_crud",
+        "peekOfCode": "def find_user(user: FindUser, db: Session = Depends(get_db)):\n    if user is None:\n        return\n    is_player = db.query(Player).filter(Player.email == user.email).first()\n    if is_player is None:\n        return False\n    return True\ndef forgot_user_password(\n    user_email: FindUser, user: ForgotUserPassword, db: Session = Depends(get_db)\n):",
+        "detail": "server.app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "forgot_user_password",
+        "kind": 2,
+        "importPath": "server.app.middleware.user_crud",
+        "description": "server.app.middleware.user_crud",
+        "peekOfCode": "def forgot_user_password(\n    user_email: FindUser, user: ForgotUserPassword, db: Session = Depends(get_db)\n):\n    if not user or not user_email:\n        return {\"status\": 401, \"message\": \"All fields are required\"}\n    is_player = db.query(Player).filter(Player.email == user_email.email).first()\n    if not is_player:\n        return {\"status\": 404, \"message\": \"User not found\"}\n    if verify_hash_value(user.password, is_player.password_hash):  # type: ignore\n        return {\"status\": 400, \"message\": \"New password must be different\"}",
+        "detail": "server.app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "kind": 2,
+        "importPath": "server.app.middleware.user_crud",
+        "description": "server.app.middleware.user_crud",
+        "peekOfCode": "def logout_user(user: FindUser, db: Session = Depends(get_db)):\n    player = db.query(Player).filter(Player.email == user.email).first()\n    if not player:\n        return {\"status\": 404, \"message\": \"User not found\"}\n    # Clear refresh token\n    player.refresh_token = None  # type: ignore\n    db.commit()\n    return {\"status\": 200, \"message\": \"User logged out successfully\"}",
+        "detail": "server.app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
         "label": "Bot",
         "kind": 6,
         "importPath": "server.app.models.Bot",
         "description": "server.app.models.Bot",
-        "peekOfCode": "class Bot(Base):\n    __tablename__ = \"bots\"\n    id = Column(Integer, primary_key=True, index=True)\n    bot_name = Column(String(100), nullable=False)\n    bot_type = Column(String, nullable=False)\n    # Relationship for bot roles in cases\n    bot_roles = relationship(\"CaseBotRole\", back_populates=\"bot\")",
+        "peekOfCode": "class Bot(Base):\n    __tablename__ = \"bots\"\n    id = Column(Integer, primary_key=True, index=True)\n    bot_name = Column(String(100), nullable=False)\n    bot_persona = Column(String, nullable=False)\n    # Relationship for bot roles in cases\n    bot_roles = relationship(\"CaseBotRole\", back_populates=\"bot\")",
         "detail": "server.app.models.Bot",
         "documentation": {}
     },
@@ -812,7 +1024,7 @@
         "kind": 6,
         "importPath": "server.app.models.Player",
         "description": "server.app.models.Player",
-        "peekOfCode": "class Player(Base):\n    __tablename__ = \"players\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String(100), nullable=False)\n    username = Column(String(50), nullable=False, unique=True)\n    email = Column(String(100), nullable=False, unique=True)\n    age = Column(Integer, nullable=False)\n    password_hash = Column(String, nullable=False)\n    pin_hash = Column(String, nullable=False)\n    solved_case_count = Column(Integer, default=0)",
+        "peekOfCode": "class Player(Base):\n    __tablename__ = \"players\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String(100), nullable=False)\n    username = Column(String(50), nullable=False, unique=True)\n    email = Column(EmailType, nullable=False, unique=True)\n    age = Column(Integer, nullable=False)\n    password_hash = Column(String, nullable=False)\n    pin_hash = Column(String, nullable=False)\n    solved_case_count = Column(Integer, default=0)",
         "detail": "server.app.models.Player",
         "documentation": {}
     },
@@ -956,7 +1168,7 @@
         "kind": 6,
         "importPath": "server.app.schemas.Player",
         "description": "server.app.schemas.Player",
-        "peekOfCode": "class TokenData(BaseModel):\n    refresh_token: Optional[str] = None\nclass LoginUser(BaseModel):\n    email: str\n    password: str",
+        "peekOfCode": "class TokenData(BaseModel):\n    refresh_token: Optional[str] = None\nclass LoginUser(BaseModel):\n    email: EmailStr\n    password: str\nclass FindUser(BaseModel):\n    email: EmailStr\nclass ForgotUserPassword(BaseModel):\n    password: str",
         "detail": "server.app.schemas.Player",
         "documentation": {}
     },
@@ -965,7 +1177,25 @@
         "kind": 6,
         "importPath": "server.app.schemas.Player",
         "description": "server.app.schemas.Player",
-        "peekOfCode": "class LoginUser(BaseModel):\n    email: str\n    password: str",
+        "peekOfCode": "class LoginUser(BaseModel):\n    email: EmailStr\n    password: str\nclass FindUser(BaseModel):\n    email: EmailStr\nclass ForgotUserPassword(BaseModel):\n    password: str",
+        "detail": "server.app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "FindUser",
+        "kind": 6,
+        "importPath": "server.app.schemas.Player",
+        "description": "server.app.schemas.Player",
+        "peekOfCode": "class FindUser(BaseModel):\n    email: EmailStr\nclass ForgotUserPassword(BaseModel):\n    password: str",
+        "detail": "server.app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotUserPassword",
+        "kind": 6,
+        "importPath": "server.app.schemas.Player",
+        "description": "server.app.schemas.Player",
+        "peekOfCode": "class ForgotUserPassword(BaseModel):\n    password: str",
         "detail": "server.app.schemas.Player",
         "documentation": {}
     },
@@ -1015,30 +1245,21 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
+        "label": "create_access_token",
         "kind": 2,
-        "importPath": "server.app.utils.user_crud",
-        "description": "server.app.utils.user_crud",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return None\n    # Check username",
-        "detail": "server.app.utils.user_crud",
+        "importPath": "server.app.utils.token_service",
+        "description": "server.app.utils.token_service",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRY_MINUTES)\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\ndef create_refresh_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(\n        minutes=REFRESH_TOKEN_EXPIRY_DAYS  # pyright: ignore[reportArgumentType]\n    )",
+        "detail": "server.app.utils.token_service",
         "documentation": {}
     },
     {
-        "label": "create_player",
+        "label": "create_refresh_token",
         "kind": 2,
-        "importPath": "server.app.utils.user_crud",
-        "description": "server.app.utils.user_crud",
-        "peekOfCode": "def create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return None\n    # Check username\n    existing_user = db.query(Player).filter(Player.username == user.username).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Username already exists\")\n    # Check email\n    existing_email = db.query(Player).filter(Player.email == user.email).first()\n    if existing_email:",
-        "detail": "server.app.utils.user_crud",
-        "documentation": {}
-    },
-    {
-        "label": "login_player",
-        "kind": 2,
-        "importPath": "server.app.utils.user_crud",
-        "description": "server.app.utils.user_crud",
-        "peekOfCode": "def login_player(user: LoginUser, db: Session = Depends(get_db)):\n    if user is None:\n        return None\n    player = db.query(Player).filter(Player.email == user.email).first()\n    if not player:\n        return None\n    if not verify_hash_value(user.password, player.password_hash):  # type: ignore\n        return None\n    return player",
-        "detail": "server.app.utils.user_crud",
+        "importPath": "server.app.utils.token_service",
+        "description": "server.app.utils.token_service",
+        "peekOfCode": "def create_refresh_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(\n        minutes=REFRESH_TOKEN_EXPIRY_DAYS  # pyright: ignore[reportArgumentType]\n    )\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "server.app.utils.token_service",
         "documentation": {}
     },
     {
@@ -1064,7 +1285,7 @@
         "kind": 2,
         "importPath": "server.app.test_crud",
         "description": "server.app.test_crud",
-        "peekOfCode": "def player_to_dict(player):\n    return {\n        \"id\": player.id,\n        \"full_name\": player.full_name,\n        \"username\": player.username,\n        \"email\": player.email,\n        \"age\": player.age,\n        \"solved_case_count\": player.solved_case_count,\n    }\n# print(player_to_dict(player))",
+        "peekOfCode": "def player_to_dict(player):\n    return {\n        \"id\": player.id,\n        \"full_name\": player.full_name,\n        \"username\": player.username,\n        \"email\": player.email,\n        \"age\": player.age,\n        \"solved_case_count\": player.solved_case_count,\n    }\nprint(player_to_dict(player[\"player\"]))",
         "detail": "server.app.test_crud",
         "documentation": {}
     },
@@ -1091,7 +1312,16 @@
         "kind": 5,
         "importPath": "server.app.test_crud",
         "description": "server.app.test_crud",
-        "peekOfCode": "login_user = LoginUser(email=\"test@example.com\", password=\"1234\")\n# player = login_player(login_user, db)\n# To print user details on console after destructring\ndef player_to_dict(player):\n    return {\n        \"id\": player.id,\n        \"full_name\": player.full_name,\n        \"username\": player.username,\n        \"email\": player.email,\n        \"age\": player.age,",
+        "peekOfCode": "login_user = LoginUser(email=\"test@example.com\", password=\"1234\")\nplayer = login_player(login_user, db)\n# To print user details on console after destructring\ndef player_to_dict(player):\n    return {\n        \"id\": player.id,\n        \"full_name\": player.full_name,\n        \"username\": player.username,\n        \"email\": player.email,\n        \"age\": player.age,",
+        "detail": "server.app.test_crud",
+        "documentation": {}
+    },
+    {
+        "label": "player",
+        "kind": 5,
+        "importPath": "server.app.test_crud",
+        "description": "server.app.test_crud",
+        "peekOfCode": "player = login_player(login_user, db)\n# To print user details on console after destructring\ndef player_to_dict(player):\n    return {\n        \"id\": player.id,\n        \"full_name\": player.full_name,\n        \"username\": player.username,\n        \"email\": player.email,\n        \"age\": player.age,\n        \"solved_case_count\": player.solved_case_count,",
         "detail": "server.app.test_crud",
         "documentation": {}
     },

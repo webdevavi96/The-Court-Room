@@ -32,5 +32,13 @@ class TokenData(BaseModel):
 
 
 class LoginUser(BaseModel):
-    email: str
+    email: EmailStr
+    password: str
+
+
+class FindUser(BaseModel):
+    email: EmailStr
+
+
+class ForgotUserPassword(BaseModel):
     password: str
