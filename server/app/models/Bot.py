@@ -8,7 +8,7 @@ class Bot(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     bot_name = Column(String(100), nullable=False)
-    bot_persona = Column(String, nullable=False)
-
+    bot_personality = Column(String, nullable=False)
+    case_id = Column(Integer, nullable=True)
     # Relationship for bot roles in cases
     bot_roles = relationship("CaseBotRole", back_populates="bot")

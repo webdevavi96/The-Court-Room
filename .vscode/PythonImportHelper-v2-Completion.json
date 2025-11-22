@@ -33,7 +33,7 @@
         "documentation": {}
     },
     {
-        "label": "relationship",
+        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -66,6 +66,22 @@
     },
     {
         "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -275,7 +291,7 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -299,6 +315,38 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -315,99 +363,219 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.database",
+        "description": "app.config.database",
+        "isExtraImport": true,
+        "detail": "app.config.database",
+        "documentation": {}
+    },
+    {
+        "label": "Case",
+        "importPath": "app.models.Case",
+        "description": "app.models.Case",
+        "isExtraImport": true,
+        "detail": "app.models.Case",
+        "documentation": {}
+    },
+    {
+        "label": "Case",
+        "importPath": "app.models.Case",
+        "description": "app.models.Case",
+        "isExtraImport": true,
+        "detail": "app.models.Case",
+        "documentation": {}
+    },
+    {
+        "label": "CaseRole",
+        "importPath": "app.models.Roles",
+        "description": "app.models.Roles",
+        "isExtraImport": true,
+        "detail": "app.models.Roles",
+        "documentation": {}
+    },
+    {
+        "label": "CaseBotRole",
+        "importPath": "app.models.Roles",
+        "description": "app.models.Roles",
+        "isExtraImport": true,
+        "detail": "app.models.Roles",
+        "documentation": {}
+    },
+    {
+        "label": "CaseRole",
+        "importPath": "app.models.Roles",
+        "description": "app.models.Roles",
+        "isExtraImport": true,
+        "detail": "app.models.Roles",
+        "documentation": {}
+    },
+    {
+        "label": "CaseBotRole",
+        "importPath": "app.models.Roles",
+        "description": "app.models.Roles",
+        "isExtraImport": true,
+        "detail": "app.models.Roles",
+        "documentation": {}
+    },
+    {
+        "label": "CaseCreate",
+        "importPath": "app.schemas.Case",
+        "description": "app.schemas.Case",
+        "isExtraImport": true,
+        "detail": "app.schemas.Case",
+        "documentation": {}
+    },
+    {
+        "label": "RoleAssignment",
+        "importPath": "app.schemas.Case",
+        "description": "app.schemas.Case",
+        "isExtraImport": true,
+        "detail": "app.schemas.Case",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "app.models.Player",
+        "description": "app.models.Player",
+        "isExtraImport": true,
+        "detail": "app.models.Player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "app.models.Player",
+        "description": "app.models.Player",
+        "isExtraImport": true,
+        "detail": "app.models.Player",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "importPath": "app.models.Player",
+        "description": "app.models.Player",
+        "isExtraImport": true,
+        "detail": "app.models.Player",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "app.models.Bot",
+        "description": "app.models.Bot",
+        "isExtraImport": true,
+        "detail": "app.models.Bot",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "app.models.Bot",
+        "description": "app.models.Bot",
+        "isExtraImport": true,
+        "detail": "app.models.Bot",
+        "documentation": {}
+    },
+    {
+        "label": "BotCreate",
+        "importPath": "app.schemas.Bot",
+        "description": "app.schemas.Bot",
+        "isExtraImport": true,
+        "detail": "app.schemas.Bot",
+        "documentation": {}
+    },
+    {
+        "label": "GetBotRole",
+        "importPath": "app.schemas.Bot",
+        "description": "app.schemas.Bot",
+        "isExtraImport": true,
+        "detail": "app.schemas.Bot",
+        "documentation": {}
+    },
+    {
         "label": "inspect",
         "importPath": "sqlalchemy.inspection",
         "description": "sqlalchemy.inspection",
         "isExtraImport": true,
         "detail": "sqlalchemy.inspection",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.config.database",
-        "description": "app.config.database",
-        "isExtraImport": true,
-        "detail": "app.config.database",
-        "documentation": {}
-    },
-    {
-        "label": "Player",
-        "importPath": "app.models.Player",
-        "description": "app.models.Player",
-        "isExtraImport": true,
-        "detail": "app.models.Player",
-        "documentation": {}
-    },
-    {
-        "label": "Player",
-        "importPath": "app.models.Player",
-        "description": "app.models.Player",
-        "isExtraImport": true,
-        "detail": "app.models.Player",
         "documentation": {}
     },
     {
@@ -436,6 +604,46 @@
     },
     {
         "label": "FindUser",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerOut",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "PlayerCreate",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "LoginUser",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "FindUser",
+        "importPath": "app.schemas.Player",
+        "description": "app.schemas.Player",
+        "isExtraImport": true,
+        "detail": "app.schemas.Player",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotUserPassword",
         "importPath": "app.schemas.Player",
         "description": "app.schemas.Player",
         "isExtraImport": true,
@@ -513,6 +721,70 @@
         "description": "passlib.context",
         "isExtraImport": true,
         "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "create_player",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
+        "isExtraImport": true,
+        "detail": "app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "login_player",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
+        "isExtraImport": true,
+        "detail": "app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "logout_player",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
+        "isExtraImport": true,
+        "detail": "app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "update_player_details",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
+        "isExtraImport": true,
+        "detail": "app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "forgot_user_password",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
+        "isExtraImport": true,
+        "detail": "app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "find_user",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
+        "isExtraImport": true,
+        "detail": "app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_player",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
+        "isExtraImport": true,
+        "detail": "app.middleware.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "login_player",
+        "importPath": "app.middleware.user_crud",
+        "description": "app.middleware.user_crud",
+        "isExtraImport": true,
+        "detail": "app.middleware.user_crud",
         "documentation": {}
     },
     {
@@ -717,19 +989,11 @@
         "documentation": {}
     },
     {
-        "label": "create_player",
-        "importPath": "app.middleware.user_crud",
-        "description": "app.middleware.user_crud",
+        "label": "auth",
+        "importPath": "app.routes.user_routes",
+        "description": "app.routes.user_routes",
         "isExtraImport": true,
-        "detail": "app.middleware.user_crud",
-        "documentation": {}
-    },
-    {
-        "label": "login_player",
-        "importPath": "app.middleware.user_crud",
-        "description": "app.middleware.user_crud",
-        "isExtraImport": true,
-        "detail": "app.middleware.user_crud",
+        "detail": "app.routes.user_routes",
         "documentation": {}
     },
     {
@@ -782,38 +1046,6 @@
         "documentation": {}
     },
     {
-        "label": "Bot",
-        "importPath": "app.models.Bot",
-        "description": "app.models.Bot",
-        "isExtraImport": true,
-        "detail": "app.models.Bot",
-        "documentation": {}
-    },
-    {
-        "label": "Case",
-        "importPath": "app.models.Case",
-        "description": "app.models.Case",
-        "isExtraImport": true,
-        "detail": "app.models.Case",
-        "documentation": {}
-    },
-    {
-        "label": "CaseRole",
-        "importPath": "app.models.Roles",
-        "description": "app.models.Roles",
-        "isExtraImport": true,
-        "detail": "app.models.Roles",
-        "documentation": {}
-    },
-    {
-        "label": "CaseBotRole",
-        "importPath": "app.models.Roles",
-        "description": "app.models.Roles",
-        "isExtraImport": true,
-        "detail": "app.models.Roles",
-        "documentation": {}
-    },
-    {
         "label": "SolvedCase",
         "importPath": "app.models.SolvedCases",
         "description": "app.models.SolvedCases",
@@ -858,11 +1090,20 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "server.app.config.database",
+        "description": "server.app.config.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\nBase = declarative_base()",
+        "detail": "server.app.config.database",
+        "documentation": {}
+    },
+    {
         "label": "DATABASE_URL",
         "kind": 5,
         "importPath": "server.app.config.database",
         "description": "server.app.config.database",
-        "peekOfCode": "DATABASE_URL = os.getenv(\"DB_URL\")\nif not DATABASE_URL:\n    raise ValueError(\"DB_URL not found\")\nengine = create_engine(DATABASE_URL, pool_pre_ping=True, future=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\nBase = declarative_base()",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DB_URL\")\nif not DATABASE_URL:\n    raise ValueError(\"DB_URL not found\")\nengine = create_engine(DATABASE_URL, pool_pre_ping=True, future=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
         "detail": "server.app.config.database",
         "documentation": {}
     },
@@ -871,7 +1112,7 @@
         "kind": 5,
         "importPath": "server.app.config.database",
         "description": "server.app.config.database",
-        "peekOfCode": "engine = create_engine(DATABASE_URL, pool_pre_ping=True, future=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\nBase = declarative_base()",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, pool_pre_ping=True, future=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\nBase = declarative_base()",
         "detail": "server.app.config.database",
         "documentation": {}
     },
@@ -880,7 +1121,7 @@
         "kind": 5,
         "importPath": "server.app.config.database",
         "description": "server.app.config.database",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\nBase = declarative_base()",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, future=True)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\nBase = declarative_base()",
         "detail": "server.app.config.database",
         "documentation": {}
     },
@@ -930,12 +1171,39 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
+        "label": "create_new_case",
         "kind": 2,
-        "importPath": "server.app.middleware.user_crud",
-        "description": "server.app.middleware.user_crud",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are required\"}\n    # Check username",
-        "detail": "server.app.middleware.user_crud",
+        "importPath": "server.app.middleware.case_crud",
+        "description": "server.app.middleware.case_crud",
+        "peekOfCode": "def create_new_case(case: CaseCreate, db: Session = Depends(get_db)):\n    if not case:\n        return {\"status\": 400, \"message\": \"Invalid data\"}\n    existing_case = db.query(Case).filter(Case.case_title == case.case_title).first()\n    if existing_case:\n        return {\"status\": 409, \"message\": \"Case already exists\"}\n    new_case = Case(case_title=case.case_title, case_details=case.case_details)\n    db.add(new_case)\n    db.commit()\n    db.refresh(new_case)",
+        "detail": "server.app.middleware.case_crud",
+        "documentation": {}
+    },
+    {
+        "label": "assign_player_role",
+        "kind": 2,
+        "importPath": "server.app.middleware.case_crud",
+        "description": "server.app.middleware.case_crud",
+        "peekOfCode": "def assign_player_role(\n    role_data: RoleAssignment, case_id: int, db: Session = Depends(get_db)\n):\n    if not role_data:\n        return {\"status\": 400, \"message\": \"Invalid data\"}\n    # Ensure player exists\n    player = db.query(Player).filter(Player.id == role_data.player_id).first()\n    if not player:\n        return {\"status\": 404, \"message\": \"Player not found\"}\n    # Ensure case exists",
+        "detail": "server.app.middleware.case_crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_bot",
+        "kind": 2,
+        "importPath": "server.app.middleware.case_crud",
+        "description": "server.app.middleware.case_crud",
+        "peekOfCode": "def create_bot(bot: BotCreate, db: Session = Depends(get_db)):\n    if not bot:\n        return {\"status\": 400, \"message\": \"Invalid data\"}\n    existing_bot = db.query(Bot).filter(Bot.bot_name == bot.bot_name).first()\n    if (\n        existing_bot and existing_bot.bot_personality == bot.bot_personality\n    ):  # type:ignore\n        return {\n            \"status\": 409,\n            \"message\": \"Bot with same name and personality already exists\",",
+        "detail": "server.app.middleware.case_crud",
+        "documentation": {}
+    },
+    {
+        "label": "assign_bot_role",
+        "kind": 2,
+        "importPath": "server.app.middleware.case_crud",
+        "description": "server.app.middleware.case_crud",
+        "peekOfCode": "def assign_bot_role(bot: GetBotRole, db: Session = Depends(get_db)):\n    if not bot:\n        return {\"status\": 400, \"message\": \"Invalid data\"}\n    # Check bot exists\n    bot_instance = db.query(Bot).filter(Bot.id == bot.id).first()\n    if not bot_instance:\n        return {\"status\": 404, \"message\": \"Bot not found\"}\n    # personality check\n    if bot_instance.bot_personality != bot.bot_personality:  # type: ignore\n        return {\"status\": 400, \"message\": \"Bot personality mismatch\"}",
+        "detail": "server.app.middleware.case_crud",
         "documentation": {}
     },
     {
@@ -943,7 +1211,7 @@
         "kind": 2,
         "importPath": "server.app.middleware.user_crud",
         "description": "server.app.middleware.user_crud",
-        "peekOfCode": "def create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are required\"}\n    # Check username\n    existing_user = db.query(Player).filter(Player.username == user.username).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Username already exists\")\n    # Check email\n    existing_email = db.query(Player).filter(Player.email == user.email).first()\n    if existing_email:",
+        "peekOfCode": "def create_player(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 400, \"message\": \"Invalid data\"}\n    # Check username\n    if db.query(Player).filter(Player.username == user.username).first():\n        return {\"status\": 409, \"message\": \"Username already exists\"}\n    # Check email\n    if db.query(Player).filter(Player.email == user.email).first():\n        return {\"status\": 409, \"message\": \"Email already exists\"}\n    hashed_password = hash_value(user.password)",
         "detail": "server.app.middleware.user_crud",
         "documentation": {}
     },
@@ -952,16 +1220,16 @@
         "kind": 2,
         "importPath": "server.app.middleware.user_crud",
         "description": "server.app.middleware.user_crud",
-        "peekOfCode": "def login_player(user: LoginUser, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are required\"}\n    is_player = db.query(Player).filter(Player.email == user.email).first()\n    if not is_player:\n        return {\"status\": 404, \"messsage\": \"User dose not exists\"}\n    if not verify_hash_value(user.password, is_player.password_hash):  # type: ignore\n        return {\"status\": 401, \"messsage\": \"Wrong credentials\"}\n    access_token = create_access_token({\"sub\": is_player.email})\n    refresh_token = create_refresh_token({\"sub\": is_player.email})",
+        "peekOfCode": "def login_player(user: LoginUser, db: Session = Depends(get_db)):\n    if not user:\n        return {\"status\": 401, \"message\": \"All fields are required\"}\n    is_player = db.query(Player).filter(Player.email == user.email).first()\n    if not is_player:\n        return {\"status\": 404, \"message\": \"User does not exist\"}\n    if not verify_hash_value(user.password, is_player.password_hash):  # type: ignore\n        return {\"status\": 401, \"message\": \"Wrong credentials\"}\n    access_token = create_access_token({\"sub\": is_player.email})\n    refresh_token = create_refresh_token({\"sub\": is_player.email})",
         "detail": "server.app.middleware.user_crud",
         "documentation": {}
     },
     {
-        "label": "update_user_details",
+        "label": "update_player_details",
         "kind": 2,
         "importPath": "server.app.middleware.user_crud",
         "description": "server.app.middleware.user_crud",
-        "peekOfCode": "def update_user_details(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are mandatory\"}\n    is_player = db.query(Player).filter(Player.email == user.email).first()\n    if not is_player:\n        return {\"status\": 404, \"message\": \"User not found\"}\n    # Get only provided user fields\n    incoming_data = user.model_dump(exclude_unset=True)\n    # SQLAlchemy column keys\n    mapper = inspect(Player)",
+        "peekOfCode": "def update_player_details(user: PlayerCreate, db: Session = Depends(get_db)):\n    if user is None:\n        return {\"status\": 401, \"message\": \"All fields are mandatory\"}\n    is_player = db.query(Player).filter(Player.email == user.email).first()\n    if not is_player:\n        return {\"status\": 404, \"message\": \"User not found\"}\n    # Get only provided user fields\n    incoming_data = user.model_dump(exclude_unset=True)\n    # SQLAlchemy column keys\n    mapper = inspect(Player)",
         "detail": "server.app.middleware.user_crud",
         "documentation": {}
     },
@@ -984,11 +1252,11 @@
         "documentation": {}
     },
     {
-        "label": "logout_user",
+        "label": "logout_player",
         "kind": 2,
         "importPath": "server.app.middleware.user_crud",
         "description": "server.app.middleware.user_crud",
-        "peekOfCode": "def logout_user(user: FindUser, db: Session = Depends(get_db)):\n    player = db.query(Player).filter(Player.email == user.email).first()\n    if not player:\n        return {\"status\": 404, \"message\": \"User not found\"}\n    # Clear refresh token\n    player.refresh_token = None  # type: ignore\n    db.commit()\n    return {\"status\": 200, \"message\": \"User logged out successfully\"}",
+        "peekOfCode": "def logout_player(user: FindUser, db: Session = Depends(get_db)):\n    player = db.query(Player).filter(Player.email == user.email).first()\n    if not player:\n        return {\"status\": 404, \"message\": \"User not found\"}\n    # Clear refresh token\n    player.refresh_token = None  # type: ignore\n    db.commit()\n    return {\"status\": 200, \"message\": \"User logged out successfully\"}",
         "detail": "server.app.middleware.user_crud",
         "documentation": {}
     },
@@ -997,7 +1265,7 @@
         "kind": 6,
         "importPath": "server.app.models.Bot",
         "description": "server.app.models.Bot",
-        "peekOfCode": "class Bot(Base):\n    __tablename__ = \"bots\"\n    id = Column(Integer, primary_key=True, index=True)\n    bot_name = Column(String(100), nullable=False)\n    bot_persona = Column(String, nullable=False)\n    # Relationship for bot roles in cases\n    bot_roles = relationship(\"CaseBotRole\", back_populates=\"bot\")",
+        "peekOfCode": "class Bot(Base):\n    __tablename__ = \"bots\"\n    id = Column(Integer, primary_key=True, index=True)\n    bot_name = Column(String(100), nullable=False)\n    bot_personality = Column(String, nullable=False)\n    case_id = Column(Integer, nullable=True)\n    # Relationship for bot roles in cases\n    bot_roles = relationship(\"CaseBotRole\", back_populates=\"bot\")",
         "detail": "server.app.models.Bot",
         "documentation": {}
     },
@@ -1092,11 +1360,74 @@
         "documentation": {}
     },
     {
+        "label": "register",
+        "kind": 2,
+        "importPath": "server.app.routes.user_routes",
+        "description": "server.app.routes.user_routes",
+        "peekOfCode": "def register(player: PlayerCreate, db: Session = Depends(get_db)):\n    result = create_player(player, db)\n    if isinstance(result, set):\n        code, message = list(result)\n        raise HTTPException(status_code=code, detail=message)  # type: ignore\n    if isinstance(result, dict):\n        return result\n    raise HTTPException(status_code=500, detail=\"Unexpected server error\")\n@auth.post(\"/login\")\ndef logIn(player: LoginUser, db: Session = Depends(get_db)):",
+        "detail": "server.app.routes.user_routes",
+        "documentation": {}
+    },
+    {
+        "label": "logIn",
+        "kind": 2,
+        "importPath": "server.app.routes.user_routes",
+        "description": "server.app.routes.user_routes",
+        "peekOfCode": "def logIn(player: LoginUser, db: Session = Depends(get_db)):\n    result = login_player(player, db)\n    if result[\"status\"] != 200:\n        raise HTTPException(status_code=result[\"status\"], detail=result[\"message\"])\n    return result\n@auth.put(\"/update\")\ndef update_details_route(user: PlayerCreate, db: Session = Depends(get_db)):\n    result = update_player_details(user, db)\n    if isinstance(result, dict):\n        return result",
+        "detail": "server.app.routes.user_routes",
+        "documentation": {}
+    },
+    {
+        "label": "update_details_route",
+        "kind": 2,
+        "importPath": "server.app.routes.user_routes",
+        "description": "server.app.routes.user_routes",
+        "peekOfCode": "def update_details_route(user: PlayerCreate, db: Session = Depends(get_db)):\n    result = update_player_details(user, db)\n    if isinstance(result, dict):\n        return result\n    raise HTTPException(500, \"Unexpected server error\")\n@auth.post(\"/find\")\ndef find_user_route(user: FindUser, db: Session = Depends(get_db)):\n    result = find_user(user, db)\n    return {\"exists\": result}\n@auth.post(\"/forgot-password\")",
+        "detail": "server.app.routes.user_routes",
+        "documentation": {}
+    },
+    {
+        "label": "find_user_route",
+        "kind": 2,
+        "importPath": "server.app.routes.user_routes",
+        "description": "server.app.routes.user_routes",
+        "peekOfCode": "def find_user_route(user: FindUser, db: Session = Depends(get_db)):\n    result = find_user(user, db)\n    return {\"exists\": result}\n@auth.post(\"/forgot-password\")\ndef forgot_password_route(\n    email_data: FindUser,\n    body: ForgotUserPassword,\n    db: Session = Depends(get_db),\n):\n    result = forgot_user_password(email_data, body, db)",
+        "detail": "server.app.routes.user_routes",
+        "documentation": {}
+    },
+    {
+        "label": "forgot_password_route",
+        "kind": 2,
+        "importPath": "server.app.routes.user_routes",
+        "description": "server.app.routes.user_routes",
+        "peekOfCode": "def forgot_password_route(\n    email_data: FindUser,\n    body: ForgotUserPassword,\n    db: Session = Depends(get_db),\n):\n    result = forgot_user_password(email_data, body, db)\n    if isinstance(result, dict):\n        return result\n    raise HTTPException(500, \"Unexpected server error\")\n@auth.post(\"/logout\")",
+        "detail": "server.app.routes.user_routes",
+        "documentation": {}
+    },
+    {
+        "label": "logout_route",
+        "kind": 2,
+        "importPath": "server.app.routes.user_routes",
+        "description": "server.app.routes.user_routes",
+        "peekOfCode": "def logout_route(user: FindUser, db: Session = Depends(get_db)):\n    result = logout_player(user, db)\n    if isinstance(result, dict):\n        return result\n    raise HTTPException(500, \"Unexpected server error\")",
+        "detail": "server.app.routes.user_routes",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "kind": 5,
+        "importPath": "server.app.routes.user_routes",
+        "description": "server.app.routes.user_routes",
+        "peekOfCode": "auth = APIRouter(prefix=\"/user\", tags=[\"User\"])\n@auth.post(\"/register\")\ndef register(player: PlayerCreate, db: Session = Depends(get_db)):\n    result = create_player(player, db)\n    if isinstance(result, set):\n        code, message = list(result)\n        raise HTTPException(status_code=code, detail=message)  # type: ignore\n    if isinstance(result, dict):\n        return result\n    raise HTTPException(status_code=500, detail=\"Unexpected server error\")",
+        "detail": "server.app.routes.user_routes",
+        "documentation": {}
+    },
+    {
         "label": "BotCreate",
         "kind": 6,
         "importPath": "server.app.schemas.Bot",
         "description": "server.app.schemas.Bot",
-        "peekOfCode": "class BotCreate(BaseModel):\n    bot_name: str\n    bot_type: str\nclass BotOut(BaseModel):\n    id: int\n    bot_name: str\n    bot_type: str\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class BotCreate(BaseModel):\n    bot_name: str\n    bot_personality: str\nclass BotOut(BaseModel):\n    id: int\n    bot_name: str\n    bot_personality: str\n    class Config:\n        from_attributes = True\nclass GetBotRole(BaseModel):",
         "detail": "server.app.schemas.Bot",
         "documentation": {}
     },
@@ -1105,7 +1436,16 @@
         "kind": 6,
         "importPath": "server.app.schemas.Bot",
         "description": "server.app.schemas.Bot",
-        "peekOfCode": "class BotOut(BaseModel):\n    id: int\n    bot_name: str\n    bot_type: str\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class BotOut(BaseModel):\n    id: int\n    bot_name: str\n    bot_personality: str\n    class Config:\n        from_attributes = True\nclass GetBotRole(BaseModel):\n    id: int\n    bot_role: str\n    case_id: int",
+        "detail": "server.app.schemas.Bot",
+        "documentation": {}
+    },
+    {
+        "label": "GetBotRole",
+        "kind": 6,
+        "importPath": "server.app.schemas.Bot",
+        "description": "server.app.schemas.Bot",
+        "peekOfCode": "class GetBotRole(BaseModel):\n    id: int\n    bot_role: str\n    case_id: int\n    bot_personality: str",
         "detail": "server.app.schemas.Bot",
         "documentation": {}
     },
@@ -1263,20 +1603,11 @@
         "documentation": {}
     },
     {
-        "label": "home",
-        "kind": 2,
-        "importPath": "server.app.index",
-        "description": "server.app.index",
-        "peekOfCode": "def home(request: Request):\n    return {\"message\": \"hello\"}",
-        "detail": "server.app.index",
-        "documentation": {}
-    },
-    {
         "label": "app",
         "kind": 5,
         "importPath": "server.app.index",
         "description": "server.app.index",
-        "peekOfCode": "app = FastAPI()\n@app.get(\"/\")\ndef home(request: Request):\n    return {\"message\": \"hello\"}",
+        "peekOfCode": "app = FastAPI()\napp.include_router(auth)",
         "detail": "server.app.index",
         "documentation": {}
     },

@@ -1,36 +1,32 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy.inspection import inspect
-from app.config.database import SessionLocal
+from app.config.database import get_db
 from app.models.Player import Player
-from app.schemas.Player import PlayerCreate, LoginUser, ForgotUserPassword, FindUser
+from app.schemas.Player import (
+    PlayerCreate,
+    LoginUser,
+    ForgotUserPassword,
+    FindUser,
+    PlayerOut,
+)
 from app.models.Security import hash_value, verify_hash_value
 from app.utils.token_service import create_access_token, create_refresh_token
 
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
-
 
 def create_player(user: PlayerCreate, db: Session = Depends(get_db)):
     if user is None:
-        return {"status": 401, "message": "All fields are required"}
+        return {"status": 400, "message": "Invalid data"}
 
     # Check username
-    existing_user = db.query(Player).filter(Player.username == user.username).first()
-    if existing_user:
-        raise HTTPException(status_code=400, detail="Username already exists")
+    if db.query(Player).filter(Player.username == user.username).first():
+        return {"status": 409, "message": "Username already exists"}
 
     # Check email
-    existing_email = db.query(Player).filter(Player.email == user.email).first()
-    if existing_email:
-        raise HTTPException(status_code=400, detail="Email already exists")
+    if db.query(Player).filter(Player.email == user.email).first():
+        return {"status": 409, "message": "Email already exists"}
 
-    # Hash sensitive fields
     hashed_password = hash_value(user.password)
     hashed_pin = hash_value(user.pin)
 
@@ -51,16 +47,16 @@ def create_player(user: PlayerCreate, db: Session = Depends(get_db)):
 
 
 def login_player(user: LoginUser, db: Session = Depends(get_db)):
-    if user is None:
+    if not user:
         return {"status": 401, "message": "All fields are required"}
 
     is_player = db.query(Player).filter(Player.email == user.email).first()
 
     if not is_player:
-        return {"status": 404, "messsage": "User dose not exists"}
+        return {"status": 404, "message": "User does not exist"}
 
     if not verify_hash_value(user.password, is_player.password_hash):  # type: ignore
-        return {"status": 401, "messsage": "Wrong credentials"}
+        return {"status": 401, "message": "Wrong credentials"}
 
     access_token = create_access_token({"sub": is_player.email})
     refresh_token = create_refresh_token({"sub": is_player.email})
@@ -70,7 +66,7 @@ def login_player(user: LoginUser, db: Session = Depends(get_db)):
 
     return {
         "status": 200,
-        "player": is_player,
+        "player": PlayerOut.model_validate(is_player),
         "message": "Login successful",
         "access_token": access_token,
         "refresh_token": refresh_token,
@@ -78,7 +74,7 @@ def login_player(user: LoginUser, db: Session = Depends(get_db)):
     }
 
 
-def update_user_details(user: PlayerCreate, db: Session = Depends(get_db)):
+def update_player_details(user: PlayerCreate, db: Session = Depends(get_db)):
     if user is None:
         return {"status": 401, "message": "All fields are mandatory"}
 
@@ -143,7 +139,7 @@ def forgot_user_password(
     return {"status": 200, "message": "Password updated successfully"}
 
 
-def logout_user(user: FindUser, db: Session = Depends(get_db)):
+def logout_player(user: FindUser, db: Session = Depends(get_db)):
 
     player = db.query(Player).filter(Player.email == user.email).first()
 
@@ -155,3 +151,5 @@ def logout_user(user: FindUser, db: Session = Depends(get_db)):
     db.commit()
 
     return {"status": 200, "message": "User logged out successfully"}
+
+
